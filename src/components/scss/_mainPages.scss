@@ -1,0 +1,20 @@
+.page-header {
+  background-color: black;
+  height: 20px;
+  width: 100vw;
+  height: 200px;
+  border-bottom: 1px solid rgb(134, 134, 134);
+  .ui_container {
+    .logo {
+      text-align: center;
+      a {
+        img {
+          border: 2px solid #9d7538;
+          border-radius: 40px;
+          height: 160px;
+          margin: 20px;
+        }
+      }
+    }
+  }
+}

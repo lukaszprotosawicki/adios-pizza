@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@import "./scss/mainPages";
+@import "./scss/containerBody";
+@import "./scss/containerInfo";
+@import "./scss/containerGallery";
+@import "./scss/footer";

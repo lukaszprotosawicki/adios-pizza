@@ -1,10 +1,19 @@
+import MainPages from "./components/MainPages";
+import React from "react";
+import ContainerBody from "./components/ContainerBody";
+import ContainerInfo from "./components/ContainerInfo";
+import ContainerGallery from "./components/ContainerGallery";
+import Footer from "./components/Footer.js";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>adios pizza</p>
-      </header>
-    </div>
+    <>
+      <MainPages />
+      <ContainerBody />
+      <ContainerInfo />
+      <ContainerGallery />
+      <Footer />
+    </>
   );
 }
 
