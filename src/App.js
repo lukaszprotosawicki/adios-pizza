@@ -4,6 +4,7 @@ import ContainerBody from "./components/ContainerBody";
 import ContainerInfo from "./components/ContainerInfo";
 import ContainerGallery from "./components/ContainerGallery";
 import Footer from "./components/Footer.js";
+import FooterInfo from "./components/FooterInfo.js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ContainerInfo />
       <ContainerGallery />
       <Footer />
+      <FooterInfo />
     </>
   );
 }
