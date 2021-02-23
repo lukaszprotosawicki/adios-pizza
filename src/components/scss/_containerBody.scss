@@ -4,17 +4,35 @@
   img {
     width: 100vw;
     margin: 0 auto;
+    // opacity: 0.8;
   }
+
   .container-body {
-    margin-top: -100px;
-    position: absolute;
+    margin-top: -320px;
+    position: relative;
     display: block;
-    text-align: right;
+    text-align: center;
     span {
-      margin-top: -200px;
-      color: blanchedalmond;
+      color: rgb(224, 162, 68);
+      text-shadow: black 0.1em 0.1em 0.1em;
+    }
+    .text-kitchen {
+      font-family: "Dancing Script", cursive;
+      font-size: 46px;
+      padding: 10px;
+    }
+    .text-pizza {
+      font-size: 65px;
+      font-weight: 900;
+      color: white;
+      font-family: "Lora", serif;
+    }
+    .border-bottom {
+      border-bottom: 4px solid #e58b07;
+      width: 80px;
     }
     button {
+      margin-top: 80px;
       color: white;
       background-color: #e58b07;
       width: 230px;
