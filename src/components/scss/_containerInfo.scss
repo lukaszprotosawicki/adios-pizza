@@ -29,6 +29,22 @@
           font-family: "Lora", serif;
         }
       }
+      button {
+        margin-top: 20px;
+        color: white;
+        background-color: #e58b07;
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+
+        border: 1px solid gray;
+        border-radius: 4px;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
     }
     .content-gallery {
       display: flex;
