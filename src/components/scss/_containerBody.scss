@@ -5,4 +5,29 @@
     width: 100vw;
     margin: 0 auto;
   }
+  .container-body {
+    margin-top: -100px;
+    position: absolute;
+    display: block;
+    text-align: right;
+    span {
+      margin-top: -200px;
+      color: blanchedalmond;
+    }
+    button {
+      color: white;
+      background-color: #e58b07;
+      width: 230px;
+      height: 50px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #a56504;
+      transition: 0.4s;
+    }
+  }
 }
