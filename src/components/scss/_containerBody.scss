@@ -3,8 +3,12 @@
 
   img {
     width: 100vw;
+    height: 500px;
     margin: 0 auto;
     // opacity: 0.8;
+  }
+  .bgc-body-img-zoom {
+    animation: smoothZoom 30s cubic-bezier(0.1, 0.5, 0.4, 0.3) both;
   }
 
   .container-body {

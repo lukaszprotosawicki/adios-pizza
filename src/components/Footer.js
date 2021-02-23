@@ -1,5 +1,5 @@
 import React from "react";
-import backgrondBodyFooter from "../img/baner1.jpg";
+import backgrondBodyFooter from "../img/121212.jpg";
 
 const Footer = () => {
   return (

@@ -15,7 +15,7 @@ const ContainerInfo = () => {
               </p>
             </div>
             <div className="styles-contact">
-              <p>🍔🍕🍟 Adios Pizza </p>
+              <p>🍔🍕🍟 Adios Pizza - Pizzeria</p>
               <p>
                 🍔🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
                 Wróblewskiego)
