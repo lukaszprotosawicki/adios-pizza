@@ -1,11 +1,27 @@
 import React from "react";
-import backgrondBodyFooter from "../img/121212.jpg";
 
 const Footer = () => {
   return (
     <>
       <div className="backgrond-body-footer">
-        <img src={backgrondBodyFooter} alt="Adios Pizza" />
+        <div className="container-footer">
+          <div className="styles-welcome">
+            <p>
+              Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
+              <p>odbiór osobisty w naszej pizzerii!!</p>
+            </p>
+          </div>
+          <div className="styles-contact">
+            <p>🍔🍕🍟 Adios Pizza - Pizzeria</p>
+            <p>
+              🍔🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
+              Wróblewskiego)
+            </p>
+            <p>🍔🍕 www.adios-pizza.pl </p>
+            <p>🍔🍕 tel: 796 71 76 50</p>
+          </div>
+          <button>PRZEJDŹ DO MENU</button>
+        </div>
       </div>
     </>
   );

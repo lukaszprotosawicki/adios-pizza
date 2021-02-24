@@ -1,4 +1,50 @@
-.backgrond-body-footer img {
-  width: 100vw;
-  max-height: 470px;
+.backgrond-body-footer {
+  background-image: url(../../img/121212.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  height: 400px;
+
+  background-size: 100vw 400px;
+  .container-footer {
+    position: absolute;
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(184, 184, 184);
+    margin-left: 50px;
+    width: 400px;
+
+    .styles-welcome p {
+      margin-top: 2px;
+      text-align: center;
+      color: rgb(224, 162, 68);
+      text-shadow: black 0.1em 0.1em 0.1em;
+      font-size: 24px;
+      font-family: "Dancing Script", cursive;
+    }
+    .styles-contact {
+      margin-top: 30px;
+      padding-left: 20px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  button {
+    margin-left: 200px;
+    margin-top: 20px;
+    color: white;
+    background-color: #e58b07;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #a56504;
+    transition: 0.4s;
+  }
 }

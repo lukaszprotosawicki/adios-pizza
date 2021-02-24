@@ -68,3 +68,27 @@
     }
   }
 }
+
+@media all and (min-width: 600px) and (max-width: 995px) {
+  .backgrond-body-info {
+    .content-position {
+      .content-gallery {
+        padding-left: 50px;
+        display: flex;
+        position: relative;
+        margin-top: 40px;
+        .background-info-img1 {
+          height: 200px;
+          width: 220px;
+        }
+        .background-info-img2 {
+          height: 200px;
+          width: 220px;
+          margin-top: 140px;
+          margin-left: -120px;
+          border: 4px solid white;
+        }
+      }
+    }
+  }
+}
