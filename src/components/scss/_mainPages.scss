@@ -5,7 +5,10 @@
 
   border-bottom: 1px solid rgb(134, 134, 134);
   .ui_container {
+    color: white;
+    text-decoration: none;
     .logo {
+      display: flex;
       text-align: center;
       a {
         img {
