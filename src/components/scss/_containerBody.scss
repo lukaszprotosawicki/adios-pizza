@@ -7,6 +7,39 @@
   }
 }
 
+@keyframes example {
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes example1 {
+  from {
+    opacity: 0;
+    left: -400px;
+  }
+  to {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+@keyframes example2 {
+  from {
+    opacity: 0;
+    top: 80px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
 .backgrond-body {
   display: block;
 
@@ -41,12 +74,18 @@
       font-family: "Dancing Script", cursive;
       font-size: 46px;
       padding: 10px;
+      animation-name: example;
+      animation-duration: 2s;
+      position: relative;
     }
     .text-pizza {
       font-size: 65px;
       font-weight: 900;
       color: white;
       font-family: "Lora", serif;
+      animation-name: example1;
+      animation-duration: 4s;
+      position: relative;
     }
     .border-bottom {
       border-bottom: 4px solid #e58b07;
@@ -62,6 +101,9 @@
       font-weight: bold;
       border: 1px solid gray;
       border-radius: 4px;
+      animation-name: example2;
+      animation-duration: 6s;
+      position: relative;
     }
     button:hover {
       cursor: pointer;
