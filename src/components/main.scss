@@ -4,6 +4,10 @@
   font-family: "Lato", Sans-Serif;
 }
 
+body {
+  overflow: overlay;
+}
+
 @import "./scss/mainPages";
 @import "./scss/containerBody";
 @import "./scss/containerInfo";
