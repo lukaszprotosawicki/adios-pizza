@@ -11,7 +11,7 @@ const ContainerInfo = () => {
             <div className="styles-welcome">
               <p>
                 Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
-                <p>odbiób osobisty w naszej pizzerii!!</p>
+                <p>odbiór osobisty w naszej pizzerii!!</p>
               </p>
             </div>
             <div className="styles-contact">

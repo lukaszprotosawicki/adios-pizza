@@ -18,12 +18,15 @@
         li {
           list-style: none;
           margin: 13px 0.6vw;
+          text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
         }
         .nav-menu {
           margin-top: 11px;
         }
         li:hover {
           cursor: pointer;
+          color: rgb(209, 105, 45);
+          transition: 0.5s;
         }
       }
       .navigation-right {
@@ -36,6 +39,12 @@
           list-style: none;
           margin: 10px;
           padding: 3px 12px;
+          text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
+        }
+        li:hover {
+          cursor: pointer;
+          color: rgb(209, 105, 45);
+          transition: 0.5s;
         }
       }
       a {
