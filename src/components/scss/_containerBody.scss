@@ -272,12 +272,12 @@
         width: 80px;
       }
       button {
-        margin-top: 42px;
+        margin-top: 35px;
         color: white;
         background-color: #e58b07;
-        width: 230px;
-        height: 50px;
-        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
         font-weight: bold;
         border: 1px solid gray;
         border-radius: 4px;
@@ -294,7 +294,7 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 900px) {
+@media all and (min-width: 750px) and (max-width: 900px) {
   .backgrond-body {
     height: 34.5vw;
     img {
@@ -314,7 +314,7 @@
       .text-kitchen {
         font-family: "Dancing Script", cursive;
         font-size: 35px;
-        margin-top: 153px;
+        margin-top: 163px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -334,12 +334,74 @@
         width: 80px;
       }
       button {
-        margin-top: 42px;
+        margin-top: 35px;
         color: white;
         background-color: #e58b07;
-        width: 230px;
-        height: 50px;
-        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid gray;
+        border-radius: 4px;
+        animation-name: example2;
+        animation-duration: 6s;
+        position: relative;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .backgrond-body {
+    height: 34.5vw;
+    img {
+      width: 100vw;
+      height: 36vw;
+      margin: 0 auto;
+    }
+    .bgc-body-img-zoom {
+      animation: zoominoutsinglefeatured 20s alternate;
+      display: block;
+    }
+
+    .container-body {
+      span {
+        margin: 0;
+      }
+      .text-kitchen {
+        font-family: "Dancing Script", cursive;
+        font-size: 35px;
+        margin-top: 163px;
+        padding: 10px;
+        animation-name: example;
+        animation-duration: 2s;
+        position: relative;
+      }
+      .text-pizza {
+        font-size: 45px;
+        font-weight: 900;
+        color: white;
+        font-family: "Lora", serif;
+        animation-name: example1;
+        animation-duration: 4s;
+        position: relative;
+      }
+      .border-bottom {
+        border-bottom: 4px solid #e58b07;
+        width: 80px;
+      }
+      button {
+        margin-top: 35px;
+        color: white;
+        background-color: #e58b07;
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
         font-weight: bold;
         border: 1px solid gray;
         border-radius: 4px;
