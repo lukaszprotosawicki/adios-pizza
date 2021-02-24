@@ -7,23 +7,30 @@ const MainPages = () => {
     <>
       <div className="page-header">
         <div className="ui_container">
-          <div className="logo">
+          <div className="navigation">
             {" "}
-            <nav>
-              <NavLink to={"/"}> About Me</NavLink>
-              <NavLink activeClassName="active-link" to={"/projects"}>
-                Projects
-              </NavLink>
-              <NavLink activeClassName="active-link" to={"/contact"}>
-                Contact
-              </NavLink>
-              <NavLink activeClassName="active-link" to={"/weather"}>
-                Weather
-              </NavLink>
+            <nav className="navigation-left">
+              <li>
+                <NavLink to={"/"}> START</NavLink>
+              </li>
+              <li className="nav-menu">
+                🍕<NavLink to={"/"}> MENU</NavLink> 🍕
+              </li>
+              <li>
+                <NavLink to={"/"}> PROMOCJE</NavLink>
+              </li>
             </nav>
             <a href="/">
               <img src={logo} alt="Adios Pizza" />
             </a>
+            <nav className="navigation-right">
+              <li>
+                <NavLink to={"/"}> DOSTAWA</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/"}> KONTAKT</NavLink>
+              </li>
+            </nav>
           </div>
         </div>
       </div>
