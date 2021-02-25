@@ -134,6 +134,8 @@
 
 @media all and (min-width: 700px) and (max-width: 800px) {
   .backgrond-body-info {
+    padding-top: 10px;
+    padding-bottom: 20px;
     .content-position {
       .content-info {
         margin-top: 50px;
@@ -145,11 +147,11 @@
           text-align: center;
           color: rgb(224, 162, 68);
           text-shadow: black 0.1em 0.1em 0.1em;
-          font-size: 2.5vw;
+          font-size: 2.8vw;
           font-family: "Dancing Script", cursive;
         }
         .styles-contact {
-          margin-top: 70px;
+          margin-top: 50px;
           padding-left: 20px;
           font-size: 14px;
           .styles-contact p {
@@ -160,9 +162,9 @@
           margin-top: 20px;
           color: white;
           background-color: #e58b07;
-          width: 220px;
-          height: 40px;
-          font-size: 18px;
+          width: 200px;
+          height: 30px;
+          font-size: 16px;
           margin-left: 20px;
           border: 1px solid gray;
           border-radius: 4px;
@@ -194,9 +196,49 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 700px) {
+@media all and (min-width: 550px) and (max-width: 700px) {
   .backgrond-body-info {
+    padding-top: 0px;
+    padding-bottom: 20px;
     .content-position {
+      .content-info {
+        margin-top: 50px;
+
+        display: block;
+        color: rgb(199, 198, 198);
+
+        .styles-welcome p {
+          text-align: center;
+          color: rgb(224, 162, 68);
+          text-shadow: black 0.1em 0.1em 0.1em;
+          font-size: 2.8vw;
+          font-family: "Dancing Script", cursive;
+        }
+        .styles-contact {
+          margin-top: 50px;
+          padding-left: 20px;
+          font-size: 12px;
+          .styles-contact p {
+            font-family: "Lora", serif;
+          }
+        }
+        button {
+          margin-top: 20px;
+          color: white;
+          background-color: #e58b07;
+          width: 180px;
+          height: 26px;
+          font-size: 14px;
+          margin-left: 20px;
+          border: 1px solid gray;
+          border-radius: 4px;
+        }
+        button:hover {
+          cursor: pointer;
+          background-color: #a56504;
+          transition: 0.4s;
+        }
+      }
       .content-gallery {
         padding-left: 50px;
         display: flex;
