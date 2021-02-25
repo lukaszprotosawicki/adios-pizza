@@ -3,7 +3,7 @@ import photo1 from "../img/pic13.jpg";
 import photo2 from "../img/pic22.jpg";
 import photo3 from "../img/pizza.jpg";
 import photo4 from "../img/salate.jpg";
-import photo5 from "../img/logo.jpg";
+import photo5 from "../img/pic33.jpg";
 
 const ContainerGallery = () => {
   return (
