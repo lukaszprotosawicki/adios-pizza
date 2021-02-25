@@ -2,9 +2,9 @@
   background-image: url(../../img/121212.jpg);
   background-repeat: no-repeat;
   display: flex;
-  height: 400px;
+  height: 31vw;
 
-  background-size: 100vw 400px;
+  background-size: 100vw 31vw;
   .container-footer {
     position: absolute;
     margin-top: 20px;
@@ -29,7 +29,6 @@
       }
     }
   }
-
   button {
     margin-left: 200px;
     margin-top: 20px;
@@ -46,5 +45,183 @@
     cursor: pointer;
     background-color: #a56504;
     transition: 0.4s;
+  }
+}
+
+@media all and (min-width: 1100px) and (max-width: 1200px) {
+  .backgrond-body-footer {
+    .container-footer {
+      .styles-welcome p {
+      }
+      .styles-contact {
+        margin-top: 30px;
+        padding-left: 20px;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    button {
+      margin-left: 200px;
+      margin-top: 20px;
+      color: white;
+      background-color: #e58b07;
+      width: 220px;
+      height: 34px;
+      font-size: 18px;
+      margin-left: 20px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #a56504;
+      transition: 0.4s;
+    }
+  }
+}
+@media all and (min-width: 900px) and (max-width: 1100px) {
+  .backgrond-body-footer {
+    .container-footer {
+      width: 300px;
+      .styles-welcome p {
+        font-size: 20px;
+      }
+      .styles-contact {
+        margin-top: 16px;
+        padding-left: 20px;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+    button {
+      margin-left: 200px;
+      margin-top: 16px;
+      color: white;
+      background-color: #e58b07;
+      width: 190px;
+      height: 28px;
+      font-size: 16px;
+      margin-left: 20px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #a56504;
+      transition: 0.4s;
+    }
+  }
+}
+@media all and (min-width: 750px) and (max-width: 900px) {
+  .backgrond-body-footer {
+    .container-footer {
+      width: 300px;
+      .styles-welcome p {
+        font-size: 20px;
+      }
+      .styles-contact {
+        margin-top: 16px;
+        padding-left: 20px;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+    button {
+      position: relative;
+      display: block;
+      right: 0;
+      margin-left: 50vw;
+      margin-top: -8vw;
+      color: white;
+      background-color: #e58b07;
+      width: 190px;
+      height: 28px;
+      font-size: 16px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #a56504;
+      transition: 0.4s;
+    }
+  }
+}
+
+@media all and (min-width: 670px) and (max-width: 750px) {
+  .backgrond-body-footer {
+    .container-footer {
+      margin-top: 10px;
+      width: 300px;
+      .styles-welcome p {
+        font-size: 18px;
+      }
+      .styles-contact {
+        margin-top: 10px;
+        padding-left: 20px;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+    button {
+      position: relative;
+      display: block;
+      right: 0;
+      margin-left: 50vw;
+      margin-top: -8vw;
+      color: white;
+      background-color: #e58b07;
+      width: 190px;
+      height: 28px;
+      font-size: 16px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #a56504;
+      transition: 0.4s;
+    }
+  }
+}
+@media all and (min-width: 500px) and (max-width: 670px) {
+  .backgrond-body-footer {
+    .container-footer {
+      margin-top: 2px;
+      width: 300px;
+      .styles-welcome p {
+        font-size: 16px;
+      }
+      .styles-contact {
+        margin-top: 6px;
+        padding-left: 0px;
+        p {
+          font-size: 9px;
+        }
+      }
+    }
+    button {
+      position: relative;
+      display: block;
+      right: 0;
+      margin-left: 50vw;
+      margin-top: -8vw;
+      color: white;
+      background-color: #e58b07;
+      width: 160px;
+      height: 20px;
+      font-size: 12px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #a56504;
+      transition: 0.4s;
+    }
   }
 }
