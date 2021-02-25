@@ -259,3 +259,67 @@
     }
   }
 }
+@media all and (min-width: 250px) and (max-width: 550px) {
+  .backgrond-body-info {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    .content-position {
+      .content-info {
+        margin-top: 50px;
+
+        display: block;
+        color: rgb(199, 198, 198);
+
+        .styles-welcome p {
+          text-align: center;
+          color: rgb(224, 162, 68);
+          text-shadow: black 0.1em 0.1em 0.1em;
+          font-size: 2.8vw;
+          font-family: "Dancing Script", cursive;
+        }
+        .styles-contact {
+          margin-top: 220px;
+          padding-left: 20px;
+          font-size: 12px;
+          p {
+            font-family: "Lora", serif;
+          }
+        }
+        button {
+          margin-top: 20px;
+          color: white;
+          background-color: #e58b07;
+          width: 180px;
+          height: 26px;
+          font-size: 14px;
+          margin-left: 20px;
+          border: 1px solid gray;
+          border-radius: 4px;
+        }
+        button:hover {
+          cursor: pointer;
+          background-color: #a56504;
+          transition: 0.4s;
+        }
+      }
+      .content-gallery {
+        display: flex;
+        position: relative;
+        margin-top: 40px;
+        .background-info-img1 {
+          height: 100px;
+          width: 120px;
+          margin-top: 80px;
+          margin-left: -240px;
+        }
+        .background-info-img2 {
+          height: 100px;
+          width: 120px;
+          margin-top: 145px;
+          margin-left: -131px;
+          border: 4px solid white;
+        }
+      }
+    }
+  }
+}

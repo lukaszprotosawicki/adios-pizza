@@ -337,9 +337,9 @@
         margin-top: 35px;
         color: white;
         background-color: #e58b07;
-        width: 200px;
-        height: 40px;
-        font-size: 18px;
+        width: 190px;
+        height: 34px;
+        font-size: 17px;
         font-weight: bold;
         border: 1px solid gray;
         border-radius: 4px;
@@ -401,7 +401,7 @@
         background-color: #e58b07;
         width: 180px;
         height: 30px;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
         border: 1px solid gray;
         border-radius: 4px;
@@ -437,15 +437,15 @@
       }
       .text-kitchen {
         font-family: "Dancing Script", cursive;
-        font-size: 26px;
-        margin-top: 219px;
+        font-size: 25px;
+        margin-top: 229px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
         position: relative;
       }
       .text-pizza {
-        font-size: 34px;
+        font-size: 33px;
         font-weight: 900;
         color: white;
         font-family: "Lora", serif;
@@ -461,9 +461,194 @@
         margin-top: 27px;
         color: white;
         background-color: #e58b07;
-        width: 160px;
-        height: 26px;
-        font-size: 15px;
+        width: 155px;
+        height: 24px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid gray;
+        border-radius: 4px;
+        animation-name: example2;
+        animation-duration: 6s;
+        position: relative;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 450px) and (max-width: 550px) {
+  .backgrond-body {
+    height: 34.5vw;
+    img {
+      width: 100vw;
+      height: 36vw;
+      margin: 0 auto;
+    }
+    .bgc-body-img-zoom {
+      animation: zoominoutsinglefeatured 20s alternate;
+      display: block;
+    }
+
+    .container-body {
+      span {
+        margin: 0;
+      }
+      .text-kitchen {
+        font-family: "Dancing Script", cursive;
+        font-size: 19px;
+        margin-top: 259px;
+        padding: 10px;
+        animation-name: example;
+        animation-duration: 2s;
+        position: relative;
+      }
+      .text-pizza {
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+        font-family: "Lora", serif;
+        animation-name: example1;
+        animation-duration: 4s;
+        position: relative;
+      }
+      .border-bottom {
+        border-bottom: 3px solid #e58b07;
+        width: 70px;
+      }
+      button {
+        margin-top: 20px;
+        color: white;
+        background-color: #e58b07;
+        width: 150px;
+        height: 22px;
+        font-size: 13px;
+        font-weight: bold;
+        border: 1px solid gray;
+        border-radius: 4px;
+        animation-name: example2;
+        animation-duration: 6s;
+        position: relative;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 350px) and (max-width: 450px) {
+  .backgrond-body {
+    height: 34.5vw;
+    img {
+      width: 100vw;
+      height: 36vw;
+      margin: 0 auto;
+    }
+    .bgc-body-img-zoom {
+      animation: zoominoutsinglefeatured 20s alternate;
+      display: block;
+    }
+
+    .container-body {
+      span {
+        margin: 0;
+      }
+      .text-kitchen {
+        font-family: "Dancing Script", cursive;
+        font-size: 17px;
+        margin-top: 289px;
+        padding: 10px;
+        animation-name: example;
+        animation-duration: 2s;
+        position: relative;
+      }
+      .text-pizza {
+        font-size: 23px;
+        font-weight: 900;
+        color: white;
+        font-family: "Lora", serif;
+        animation-name: example1;
+        animation-duration: 4s;
+        position: relative;
+      }
+      .border-bottom {
+        border-bottom: 3px solid #e58b07;
+        width: 60px;
+      }
+      button {
+        margin-top: 15px;
+        color: white;
+        background-color: #e58b07;
+        width: 120px;
+        height: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid gray;
+        border-radius: 4px;
+        animation-name: example2;
+        animation-duration: 6s;
+        position: relative;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
+    }
+  }
+}
+@media all and (min-width: 270px) and (max-width: 350px) {
+  .backgrond-body {
+    height: 34.5vw;
+    img {
+      width: 100vw;
+      height: 36vw;
+      margin: 0 auto;
+    }
+    .bgc-body-img-zoom {
+      animation: zoominoutsinglefeatured 20s alternate;
+      display: block;
+    }
+
+    .container-body {
+      span {
+        margin: 0;
+      }
+      .text-kitchen {
+        font-family: "Dancing Script", cursive;
+        font-size: 13px;
+        margin-top: 316px;
+        padding: 10px;
+        animation-name: example;
+        animation-duration: 2s;
+        position: relative;
+      }
+      .text-pizza {
+        font-size: 18px;
+        font-weight: 900;
+        color: white;
+        font-family: "Lora", serif;
+        animation-name: example1;
+        animation-duration: 4s;
+        position: relative;
+      }
+      .border-bottom {
+        border-bottom: 2px solid #e58b07;
+        width: 60px;
+      }
+      button {
+        margin-top: 10px;
+        color: white;
+        background-color: #e58b07;
+        width: 100px;
+        height: 16px;
+        font-size: 10px;
         font-weight: bold;
         border: 1px solid gray;
         border-radius: 4px;
