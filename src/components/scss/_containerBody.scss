@@ -356,7 +356,7 @@
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 650px) and (max-width: 750px) {
   .backgrond-body {
     height: 34.5vw;
     img {
@@ -375,15 +375,15 @@
       }
       .text-kitchen {
         font-family: "Dancing Script", cursive;
-        font-size: 35px;
-        margin-top: 163px;
+        font-size: 30px;
+        margin-top: 193px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
         position: relative;
       }
       .text-pizza {
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 900;
         color: white;
         font-family: "Lora", serif;
@@ -399,9 +399,9 @@
         margin-top: 35px;
         color: white;
         background-color: #e58b07;
-        width: 200px;
-        height: 40px;
-        font-size: 18px;
+        width: 180px;
+        height: 30px;
+        font-size: 16px;
         font-weight: bold;
         border: 1px solid gray;
         border-radius: 4px;
