@@ -186,7 +186,7 @@ button:hover {
     border-radius: 4px;
   }
 }
-@media all and (min-width: 250px) and (max-width: 350px) {
+@media all and (min-width: 200px) and (max-width: 350px) {
   .container-gallery {
     background-color: #0d0d0d;
     height: auto;
@@ -237,9 +237,9 @@ button:hover {
     margin-top: 20px;
     color: white;
     background-color: #e58b07;
-    width: 240px;
-    height: 28px;
-    font-size: 14px;
+    width: 170px;
+    height: 17px;
+    font-size: 9px;
     margin-left: 20px;
     border: 1px solid gray;
     border-radius: 4px;
