@@ -10,7 +10,7 @@ const StyledBurger = styled.div`
     right: 12px;
     z-index: 20;
     display:none;
- 
+    scroll-behavior: smooth;
 // style krzyzyka
     @media (max-width: 660px){  
         display: flex;
@@ -51,7 +51,7 @@ const Burger = () => {
     return (
         <>
         <StyledBurger open={open} onClick={() => setOpen(!open)} >
-        <div />
+        <div  />
         <div />
         <div />
         </StyledBurger>

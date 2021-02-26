@@ -4,7 +4,7 @@ import backgrondBody from "../img/123.jpg";
 const ContainerBody = () => {
   return (
     <>
-      <div id="#mainpage" className="backgrond-body">
+      <div className="backgrond-body">
         <img
           className="background-body-img bgc-body-img-zoom"
           src={backgrondBody}

@@ -6,13 +6,13 @@ import Burger from "./scss/navigation/Burger";
 const MainPages = () => {
   return (
     <>
-      <div className="page-header">
+      <div id="#top-main" className="page-header">
         <div className="ui_container">
           <div className="navigation">
             {" "}
             <nav className="navigation-left">
               <li>
-                <a className="scroll" href="#mainpage">
+                <a className="scroll" href="#top-main">
                   START
                 </a>
               </li>
