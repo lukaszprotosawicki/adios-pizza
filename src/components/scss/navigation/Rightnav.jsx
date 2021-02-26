@@ -27,15 +27,10 @@ const UL = styled.ul `
     display: block;
     }
     @media (max-width: 660px) {
-        a img {
-            display: flex;
-            border: 0px;
-            border-radius: 80px;
-            margin-top: 15px;
-        }
+
 
         .menu-hamburger {
-            display: flex;
+
         }
 
         padding-left: 0px;
@@ -57,13 +52,15 @@ const UL = styled.ul `
         div {
             text-decoration: none;
           display: block;
-          margin: 5px 0 10px 50px;
+          margin: 5px 0 10px;
         }
         scroll-behavior: smooth;
         li {
             list-style: none;
             margin: 13px 0.6vw;
             text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
+
+            
           }
           .scroll {
             text-decoration: none;
@@ -105,11 +102,7 @@ const Rightnav = ({open, closeNavigation}) => {
 
          <UL id="ocultars" open={open} >
              <div className="menu-hamburger">
-                <div>         
-                    <a href="/">
-                    <img src={logo} alt="Adios Pizza" />
-                    </a>
-                </div>
+
                 <div onClick={closeNavigation}>
                     <li>
                     <a className="scroll" href="#top-main">
