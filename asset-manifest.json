@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adios-pizza/static/css/main.ea567d2d.chunk.css",
-    "main.js": "/adios-pizza/static/js/main.7089e18a.chunk.js",
-    "main.js.map": "/adios-pizza/static/js/main.7089e18a.chunk.js.map",
+    "main.js": "/adios-pizza/static/js/main.2f197d4d.chunk.js",
+    "main.js.map": "/adios-pizza/static/js/main.2f197d4d.chunk.js.map",
     "runtime-main.js": "/adios-pizza/static/js/runtime-main.1eb5e640.js",
     "runtime-main.js.map": "/adios-pizza/static/js/runtime-main.1eb5e640.js.map",
     "static/js/2.8ed7b6bb.chunk.js": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.1eb5e640.js",
     "static/js/2.8ed7b6bb.chunk.js",
     "static/css/main.ea567d2d.chunk.css",
-    "static/js/main.7089e18a.chunk.js"
+    "static/js/main.2f197d4d.chunk.js"
   ]
 }
