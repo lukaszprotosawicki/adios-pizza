@@ -6,6 +6,7 @@ import ContainerGallery from "./components/ContainerGallery";
 import Footer from "./components/Footer.js";
 import FooterInfo from "./components/FooterInfo.js";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
+import ContainerTransport from "./components/ContainerTransport";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ContainerBody />
       <ContainerInfo />
       <ContainerGallery />
+      <ContainerTransport />
       <Footer />
       <FooterInfo />
       <Switch>
