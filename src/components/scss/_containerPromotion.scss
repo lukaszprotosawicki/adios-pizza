@@ -88,13 +88,70 @@ button:hover {
   background-color: #a56504;
   transition: 0.4s;
 }
+@media all and (min-width: 800px) and (max-width: 1200px) {
+  .container-transport {
+    height: auto;
+    width: 100vw;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+    span {
+      display: block;
+
+      color: rgb(224, 162, 68);
+      text-shadow: black 0.1em 0.1em 0.1em;
+    }
+    .text-transport {
+      font-family: "Caveat", cursive;
+      font-size: 26px;
+      padding-top: 50px;
+      animation-name: example;
+      animation-duration: 2s;
+      position: relative;
+    }
+    .text-transport-citys {
+      font-size: 36px;
+      font-weight: 900;
+      color: white;
+      font-family: "Lora", serif;
+      animation-name: example1;
+      animation-duration: 4s;
+      position: relative;
+      margin: 0 20px;
+    }
+    .border-bottom {
+      border-bottom: 4px solid #e58b07;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container-photo-all {
+    img {
+      padding: 20px;
+      height: 200px;
+      width: 220px;
+      cursor: pointer;
+    }
+  }
+  .button-gallery {
+    margin-top: 20px;
+    color: white;
+    background-color: #e58b07;
+    width: 290px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+}
 
 @media all and (min-width: 500px) and (max-width: 800px) {
   .container-transport {
     height: auto;
     width: 100vw;
-    margin: -1px auto 0;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     display: block;
     text-align: center;
     span {
@@ -119,6 +176,7 @@ button:hover {
       animation-name: example1;
       animation-duration: 4s;
       position: relative;
+      margin: 0 20px;
     }
     .border-bottom {
       border-bottom: 4px solid #e58b07;
@@ -177,6 +235,7 @@ button:hover {
       animation-name: example1;
       animation-duration: 4s;
       position: relative;
+      margin: 0 20px;
     }
     .border-bottom {
       border-bottom: 4px solid #e58b07;
@@ -235,6 +294,7 @@ button:hover {
       animation-name: example1;
       animation-duration: 4s;
       position: relative;
+      margin: 0 10px;
     }
     .border-bottom {
       border-bottom: 4px solid #e58b07;

@@ -20,13 +20,13 @@ const Footer = () => {
               </p>
             </div>
             <div id="contact" className="styles-contact">
-              <p>🍔🍕🍟 Adios Pizza - Pizzeria</p>
+              <p>🍕🍟 Adios Pizza - Pizzeria</p>
               <p>
-                🍔🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
+                🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
                 Wróblewskiego)
               </p>
-              <p>🍔🍕 www.adios-pizza.pl </p>
-              <p>🍔🍕 tel: 796 71 76 50</p>
+              <p>🍕 www.adios-pizza.pl </p>
+              <p>🍕 tel: 796 71 76 50</p>
             </div>
           </div>
           <div>
