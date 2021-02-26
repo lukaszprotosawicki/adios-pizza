@@ -1,11 +1,9 @@
 .backgrond-body-footer-info {
   display: flex;
-  position: absolute;
   width: 100vw;
   height: 30px;
   background-color: black;
-  margin: -4px auto;
-  padding-top: 6px;
+  padding-top: 5px;
   p {
     color: rgb(185, 185, 185);
     font-size: 14px;
@@ -13,45 +11,26 @@
 }
 @media all and (min-width: 600px) and (max-width: 900px) {
   .backgrond-body-footer-info {
-    display: flex;
-    position: absolute;
-    width: 100vw;
     height: 28px;
-    background-color: black;
     margin: -4px auto;
     padding-top: 6px;
     p {
-      color: rgb(185, 185, 185);
       font-size: 12px;
     }
   }
 }
 @media all and (min-width: 400px) and (max-width: 600px) {
   .backgrond-body-footer-info {
-    display: flex;
-    position: absolute;
-    width: 100vw;
     height: 17px;
-    background-color: black;
-    margin: -4px auto;
-    padding-top: 3px;
     p {
-      color: rgb(185, 185, 185);
       font-size: 8px;
     }
   }
 }
 @media all and (min-width: 200px) and (max-width: 400px) {
   .backgrond-body-footer-info {
-    display: flex;
-    position: absolute;
-    width: 100vw;
     height: 13px;
-    background-color: black;
-    margin: -4px auto;
-    padding-top: 3px;
     p {
-      color: rgb(185, 185, 185);
       font-size: 6px;
     }
   }

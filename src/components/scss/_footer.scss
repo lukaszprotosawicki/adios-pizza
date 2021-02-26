@@ -1,160 +1,49 @@
 .backgrond-body-footer {
+  padding-top: 20px;
   background-color: #0d0d0d;
-  background-repeat: no-repeat;
   display: flex;
-  height: 25vw;
-
-  background-size: 100vw 31vw;
+  height: auto;
   .container-footer {
-    margin-top: 1.5vw;
-    text-align: left;
+    display: contents;
+    padding: 10px;
     color: rgb(184, 184, 184);
     margin-left: 20px;
     width: 550px;
-    div a {
-      img {
-        border: 1px solid #857325;
-        border-radius: 90px;
-        padding: 2px;
-        height: 80px;
-        margin: 10px 0;
-      }
+    background-color: #0d0d0d;
+    .logo-footer a img {
+      border: 0px;
+      border-radius: 90px;
+      height: 120px;
+      margin: 50% 20px 0 20px;
     }
-    .styles-welcome p {
-      margin-top: 2px;
-      text-align: center;
-      color: rgb(224, 162, 68);
-      text-shadow: black 0.1em 0.1em 0.1em;
-      font-size: 34px;
-      font-family: "Caveat", cursive;
-    }
-    .styles-contact {
-      margin-top: 30px;
-      padding-left: 30px;
-      p {
-        font-size: 18px;
-      }
-    }
-  }
-  button {
-    position: relative;
-    display: block;
-
-    margin-left: 60vw;
-    margin-top: -8vw;
-    color: white;
-    background-color: #e58b07;
-    width: 250px;
-    height: 50px;
-    font-size: 20px;
-    border: 1px solid gray;
-    border-radius: 4px;
-  }
-  button:hover {
-    cursor: pointer;
-    background-color: #a56504;
-    transition: 0.4s;
-  }
-}
-
-@media all and (min-width: 920px) and (max-width: 1000px) {
-  .backgrond-body-footer {
-    .container-footer {
+    .welcome-contact {
       .styles-welcome p {
+        margin-top: 2px;
+        text-align: center;
+        color: rgb(224, 162, 68);
+        text-shadow: black 0.1em 0.1em 0.1em;
+        font-size: 34px;
+        font-family: "Caveat", cursive;
       }
       .styles-contact {
         margin-top: 30px;
         padding-left: 30px;
+        padding-bottom: 30px;
         p {
-          font-size: 16px;
+          font-size: 18px;
         }
       }
     }
     button {
-      position: relative;
       display: block;
-      margin-left: 60vw;
-      margin-top: -8vw;
       color: white;
       background-color: #e58b07;
-      width: 220px;
-      height: 34px;
-      font-size: 18px;
-
+      width: 250px;
+      height: 50px;
+      font-size: 20px;
       border: 1px solid gray;
       border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
-    }
-  }
-}
-@media all and (min-width: 800px) and (max-width: 920px) {
-  .backgrond-body-footer {
-    .container-footer {
-      width: 500px;
-      .styles-welcome p {
-        font-size: 30px;
-      }
-      .styles-contact {
-        margin-top: 10px;
-        padding-left: 30px;
-        p {
-          font-size: 14px;
-        }
-      }
-    }
-    button {
-      position: relative;
-      display: block;
-      margin-left: 60vw;
-      margin-top: -8vw;
-      color: white;
-      background-color: #e58b07;
-      width: 190px;
-      height: 28px;
-      font-size: 16px;
-      border: 1px solid gray;
-      border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
-    }
-  }
-}
-@media all and (min-width: 700px) and (max-width: 800px) {
-  .backgrond-body-footer {
-    .container-footer {
-      width: 450px;
-      .styles-welcome p {
-        font-size: 28px;
-        margin-top: 0px;
-      }
-      .styles-contact {
-        margin-top: 10px;
-        padding-left: 20px;
-        p {
-          font-size: 13px;
-        }
-      }
-    }
-    button {
-      position: relative;
-      display: block;
-      right: 0;
-      margin-left: 60vw;
-      margin-top: -8vw;
-      color: white;
-      background-color: #e58b07;
-      width: 190px;
-      height: 28px;
-      font-size: 16px;
-      border: 1px solid gray;
-      border-radius: 4px;
+      margin: 120px 20px;
     }
     button:hover {
       cursor: pointer;
@@ -164,190 +53,171 @@
   }
 }
 
-@media all and (min-width: 570px) and (max-width: 700px) {
+@media all and (min-width: 500px) and (max-width: 1000px) {
   .backgrond-body-footer {
+    background-color: #0d0d0d;
+    display: grid;
+    height: auto;
     .container-footer {
-      margin-top: 8px;
-      width: 300px;
-      .styles-welcome p {
-        font-size: 18px;
-      }
-      .styles-contact {
-        margin-top: 8px;
-        padding-left: 20px;
-        p {
-          font-size: 12px;
-        }
-      }
-    }
-    button {
-      position: relative;
-      display: block;
-      right: 0;
-      margin-left: 60vw;
-      margin-top: -6vw;
-      color: white;
-      background-color: #e58b07;
-      width: 180px;
-      height: 26px;
-      font-size: 15px;
-      border: 1px solid gray;
-      border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
-    }
-  }
-}
-@media all and (min-width: 520px) and (max-width: 570px) {
-  .backgrond-body-footer {
-    .container-footer {
-      margin-top: 8px;
-      width: 300px;
-      .styles-welcome p {
-        font-size: 18px;
-      }
-      .styles-contact {
-        margin-top: 6px;
-        padding-left: 10px;
-        p {
-          font-size: 10px;
-        }
-      }
-    }
-    button {
-      position: relative;
-      display: block;
-      right: 0;
-      margin-left: 60vw;
-      margin-top: -8vw;
-      color: white;
-      background-color: #e58b07;
-      width: 150px;
-      height: 20px;
-      font-size: 12px;
-      border: 1px solid gray;
-      border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
-    }
-  }
-}
-@media all and (min-width: 400px) and (max-width: 520px) {
-  .backgrond-body-footer {
-    .container-footer {
-      margin-top: 4px;
-      width: 240px;
+      color: rgb(184, 184, 184);
       margin-left: 20px;
-      .styles-welcome p {
-        font-size: 14px;
+      width: 550px;
+      background-color: #0d0d0d;
+      .logo-footer a img {
+        border: 0px;
+        border-radius: 90px;
+        height: 120px;
+        margin: 20px 20px 0 20px;
       }
-      .styles-contact {
-        margin-top: 5px;
-        padding-left: 10px;
-        p {
-          font-size: 8px;
+      .welcome-contact {
+        .styles-welcome p {
+          margin-top: 2px;
+          text-align: center;
+          color: rgb(224, 162, 68);
+          text-shadow: black 0.1em 0.1em 0.1em;
+          font-size: 34px;
+          font-family: "Caveat", cursive;
+        }
+        .styles-contact {
+          padding-right: 8px;
+          margin-top: 30px;
+          padding-left: 30px;
+          padding-bottom: 30px;
+          p {
+            font-size: 18px;
+          }
         }
       }
-    }
-    button {
-      position: relative;
-      display: block;
-      right: 0;
-      margin-left: 58vw;
-      margin-top: -8vw;
-      color: white;
-      background-color: #e58b07;
-      width: 130px;
-      height: 18px;
-      font-size: 10px;
-      border: 1px solid gray;
-      border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
+      button {
+        display: block;
+        color: white;
+        background-color: #e58b07;
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin: 50px 20px;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
     }
   }
 }
-
-@media all and (min-width: 310px) and (max-width: 400px) {
+@media all and (min-width: 300px) and (max-width: 500px) {
   .backgrond-body-footer {
+    background-color: #0d0d0d;
+    display: grid;
+    height: auto;
     .container-footer {
-      margin-top: 0px;
-      width: 200px;
-      .styles-welcome p {
-        font-size: 12px;
+      color: rgb(184, 184, 184);
+      margin-left: 20px;
+      width: 550px;
+      background-color: #0d0d0d;
+      .logo-footer a img {
+        border: 0px;
+        border-radius: 90px;
+        height: 120px;
+        margin: 20px 20px 0 20px;
       }
-      .styles-contact {
-        margin-top: 5px;
-        padding-left: 10px;
-        p {
-          font-size: 6px;
+      .welcome-contact {
+        .styles-welcome p {
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-top: 2px;
+          text-align: center;
+          color: rgb(224, 162, 68);
+          text-shadow: black 0.1em 0.1em 0.1em;
+          font-size: 30px;
+          font-family: "Caveat", cursive;
+        }
+        .styles-contact {
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-top: 30px;
+          padding-left: 30px;
+          padding-bottom: 30px;
+          p {
+            font-size: 14px;
+          }
         }
       }
-    }
-    button {
-      position: relative;
-      display: block;
-      right: 0;
-      margin-left: 58vw;
-      margin-top: -8vw;
-      color: white;
-      background-color: #e58b07;
-      width: 100px;
-      height: 16px;
-      font-size: 7px;
-      border: 1px solid gray;
-      border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
+      button {
+        display: block;
+        color: white;
+        background-color: #e58b07;
+        width: 200px;
+        height: 36px;
+        font-size: 16px;
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin: 50px 20px;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
     }
   }
 }
-@media all and (min-width: 200px) and (max-width: 310px) {
+@media all and (min-width: 200px) and (max-width: 300px) {
   .backgrond-body-footer {
+    background-color: #0d0d0d;
+    display: grid;
+    height: auto;
     .container-footer {
-      margin-top: 0px;
-      width: 140px;
-      .styles-welcome p {
-        font-size: 8px;
+      color: rgb(184, 184, 184);
+      margin-left: 20px;
+      width: 550px;
+      background-color: #0d0d0d;
+      .logo-footer a img {
+        border: 0px;
+        border-radius: 90px;
+        height: 120px;
+        margin: 20px 20px 0 20px;
       }
-      .styles-contact {
-        margin-top: 4px;
-        padding-left: 10px;
-        p {
-          font-size: 5px;
+      .welcome-contact {
+        .styles-welcome p {
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-top: 2px;
+          text-align: center;
+          color: rgb(224, 162, 68);
+          text-shadow: black 0.1em 0.1em 0.1em;
+          font-size: 26px;
+          font-family: "Caveat", cursive;
+        }
+        .styles-contact {
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-top: 30px;
+          padding-left: 30px;
+          padding-bottom: 30px;
+          p {
+            font-size: 12px;
+          }
         }
       }
-    }
-    button {
-      position: relative;
-      display: block;
-      right: 0;
-      margin-left: 58vw;
-      margin-top: -8vw;
-      color: white;
-      background-color: #e58b07;
-      width: 80px;
-      height: 14px;
-      font-size: 6px;
-      border: 1px solid gray;
-      border-radius: 4px;
-    }
-    button:hover {
-      cursor: pointer;
-      background-color: #a56504;
-      transition: 0.4s;
+      button {
+        display: block;
+        color: white;
+        background-color: #e58b07;
+        width: 200px;
+        height: 36px;
+        font-size: 16px;
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin: 50px 20px;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #a56504;
+        transition: 0.4s;
+      }
     }
   }
 }
