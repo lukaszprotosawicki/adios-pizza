@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as NavLink } from "react-router-dom";
 import logo from "../img/logoprincipal.png";
+import Burger from "./scss/navigation/Burger";
 
 const MainPages = () => {
   return (
@@ -11,18 +12,17 @@ const MainPages = () => {
             {" "}
             <nav className="navigation-left">
               <li>
-                <NavLink to={"/"}> START</NavLink>
+                <a className="scroll" href="#mainpage">
+                  START
+                </a>
               </li>
               <li className="nav-menu">
                 🍕<NavLink to={"/"}> MENU</NavLink> 🍕
               </li>
               <li>
-                <NavLink to={"/"}>
-                  {" "}
-                  <a className="scroll" href="#promotion">
-                    PROMOCJE
-                  </a>
-                </NavLink>
+                <a className="scroll" href="#promotion">
+                  PROMOCJE
+                </a>
               </li>
             </nav>
             <a href="/">
@@ -30,24 +30,19 @@ const MainPages = () => {
             </a>
             <nav className="navigation-right">
               <li>
-                <NavLink to={"/"}>
-                  {" "}
-                  <a className="scroll" href="#transport">
-                    DOSTAWA
-                  </a>
-                </NavLink>
+                <a className="scroll" href="#transport">
+                  DOSTAWA
+                </a>
               </li>
               <li>
-                <NavLink to={"/"}>
-                  {" "}
-                  <a className="scroll" href="#contact">
-                    KONTAKT
-                  </a>{" "}
-                </NavLink>
+                <a className="scroll" href="#contact">
+                  KONTAKT
+                </a>
               </li>
             </nav>
           </div>
         </div>
+        <Burger />
       </div>
     </>
   );

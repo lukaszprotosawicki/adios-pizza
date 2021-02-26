@@ -5,8 +5,8 @@ import facebook from "../img/facebook.png";
 const ContainerTransport = () => {
   return (
     <>
-      <div id="transport-scroll" className="container-transport">
-        <div>
+      <div className="container-transport">
+        <div id="promotion">
           <span className="text-transport">Sprawdż nasze </span>
           <p></p>
           <span className="text-transport-citys">
