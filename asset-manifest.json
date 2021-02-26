@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/adios-pizza/static/css/main.1c40a1ad.chunk.css",
-    "main.js": "/adios-pizza/static/js/main.51fc9c04.chunk.js",
-    "main.js.map": "/adios-pizza/static/js/main.51fc9c04.chunk.js.map",
+    "main.css": "/adios-pizza/static/css/main.ea567d2d.chunk.css",
+    "main.js": "/adios-pizza/static/js/main.7089e18a.chunk.js",
+    "main.js.map": "/adios-pizza/static/js/main.7089e18a.chunk.js.map",
     "runtime-main.js": "/adios-pizza/static/js/runtime-main.1eb5e640.js",
     "runtime-main.js.map": "/adios-pizza/static/js/runtime-main.1eb5e640.js.map",
-    "static/js/2.4b54c61b.chunk.js": "/adios-pizza/static/js/2.4b54c61b.chunk.js",
-    "static/js/2.4b54c61b.chunk.js.map": "/adios-pizza/static/js/2.4b54c61b.chunk.js.map",
+    "static/js/2.8ed7b6bb.chunk.js": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js",
+    "static/js/2.8ed7b6bb.chunk.js.map": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js.map",
     "index.html": "/adios-pizza/index.html",
-    "static/css/main.1c40a1ad.chunk.css.map": "/adios-pizza/static/css/main.1c40a1ad.chunk.css.map",
-    "static/js/2.4b54c61b.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.4b54c61b.chunk.js.LICENSE.txt",
+    "static/css/main.ea567d2d.chunk.css.map": "/adios-pizza/static/css/main.ea567d2d.chunk.css.map",
+    "static/js/2.8ed7b6bb.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js.LICENSE.txt",
     "static/media/123.84b39389.jpg": "/adios-pizza/static/media/123.84b39389.jpg",
     "static/media/facebook.ae3596a2.png": "/adios-pizza/static/media/facebook.ae3596a2.png",
     "static/media/instagram.aa39a31f.jpg": "/adios-pizza/static/media/instagram.aa39a31f.jpg",
@@ -17,14 +17,14 @@
     "static/media/pic13.0b970789.jpg": "/adios-pizza/static/media/pic13.0b970789.jpg",
     "static/media/pic2.5fbcb438.jpg": "/adios-pizza/static/media/pic2.5fbcb438.jpg",
     "static/media/pic22.096d5f4a.jpg": "/adios-pizza/static/media/pic22.096d5f4a.jpg",
-    "static/media/pic33.a2017717.jpg": "/adios-pizza/static/media/pic33.a2017717.jpg",
+    "static/media/pic33.d54f0de1.jpg": "/adios-pizza/static/media/pic33.d54f0de1.jpg",
     "static/media/pizza.8deee0a1.jpg": "/adios-pizza/static/media/pizza.8deee0a1.jpg",
     "static/media/salate.de641eb7.jpg": "/adios-pizza/static/media/salate.de641eb7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1eb5e640.js",
-    "static/js/2.4b54c61b.chunk.js",
-    "static/css/main.1c40a1ad.chunk.css",
-    "static/js/main.51fc9c04.chunk.js"
+    "static/js/2.8ed7b6bb.chunk.js",
+    "static/css/main.ea567d2d.chunk.css",
+    "static/js/main.7089e18a.chunk.js"
   ]
 }
