@@ -5,7 +5,7 @@ const FooterInfo = () => {
     <>
       <div className="backgrond-body-footer-info">
         <p>© 2021 Adios Pizza. Wszelkie prawa zastrzeżone.</p>
-        <p>Project Lucaretti</p>
+        <a href="https://github.com/lukaszprotosawicki">Project Lucaretti</a>
       </div>
     </>
   );

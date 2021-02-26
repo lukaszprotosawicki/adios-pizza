@@ -4,11 +4,6 @@ import styled from 'styled-components';
 
 import {BrowserRouter as Router, NavLink } from "react-router-dom";
 
-import logo from "../../../img/logoprincipal.png"
-
-
-
-
 
 const UL = styled.ul `
 
