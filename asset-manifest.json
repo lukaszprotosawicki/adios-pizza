@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/adios-pizza/static/css/main.ea567d2d.chunk.css",
-    "main.js": "/adios-pizza/static/js/main.2f197d4d.chunk.js",
-    "main.js.map": "/adios-pizza/static/js/main.2f197d4d.chunk.js.map",
+    "main.css": "/adios-pizza/static/css/main.c743570e.chunk.css",
+    "main.js": "/adios-pizza/static/js/main.d573f3e4.chunk.js",
+    "main.js.map": "/adios-pizza/static/js/main.d573f3e4.chunk.js.map",
     "runtime-main.js": "/adios-pizza/static/js/runtime-main.1eb5e640.js",
     "runtime-main.js.map": "/adios-pizza/static/js/runtime-main.1eb5e640.js.map",
     "static/js/2.8ed7b6bb.chunk.js": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js",
     "static/js/2.8ed7b6bb.chunk.js.map": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js.map",
     "index.html": "/adios-pizza/index.html",
-    "static/css/main.ea567d2d.chunk.css.map": "/adios-pizza/static/css/main.ea567d2d.chunk.css.map",
+    "static/css/main.c743570e.chunk.css.map": "/adios-pizza/static/css/main.c743570e.chunk.css.map",
     "static/js/2.8ed7b6bb.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js.LICENSE.txt",
     "static/media/123.84b39389.jpg": "/adios-pizza/static/media/123.84b39389.jpg",
     "static/media/facebook.ae3596a2.png": "/adios-pizza/static/media/facebook.ae3596a2.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.1eb5e640.js",
     "static/js/2.8ed7b6bb.chunk.js",
-    "static/css/main.ea567d2d.chunk.css",
-    "static/js/main.2f197d4d.chunk.js"
+    "static/css/main.c743570e.chunk.css",
+    "static/js/main.d573f3e4.chunk.js"
   ]
 }
