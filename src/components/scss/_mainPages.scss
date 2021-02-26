@@ -38,6 +38,11 @@
           margin: 10px;
           padding: 3px 12px;
           text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
+
+          .footer-contact-class {
+            text-decoration: none;
+            color: white;
+          }
         }
         li:hover {
           cursor: pointer;

@@ -28,7 +28,12 @@ const MainPages = () => {
                 <NavLink to={"/"}> DOSTAWA</NavLink>
               </li>
               <li>
-                <NavLink to={"/"}> KONTAKT</NavLink>
+                <NavLink to={"/"}>
+                  {" "}
+                  <a className="footer-contact-class" href="#contact">
+                    KONTAKT
+                  </a>{" "}
+                </NavLink>
               </li>
             </nav>
           </div>

@@ -11,7 +11,7 @@ const Footer = () => {
               <p>odbiór osobisty w naszej pizzerii!!</p>
             </p>
           </div>
-          <div className="styles-contact">
+          <div id="contact" className="styles-contact">
             <p>🍔🍕🍟 Adios Pizza - Pizzeria</p>
             <p>
               🍔🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
