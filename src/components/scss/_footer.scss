@@ -1,19 +1,25 @@
 .backgrond-body-footer {
-  // background-image: url(../../img/121212.jpg);
   background-color: #0d0d0d;
   background-repeat: no-repeat;
   display: flex;
-  height: 31vw;
+  height: 25vw;
 
   background-size: 100vw 31vw;
   .container-footer {
-    position: absolute;
     margin-top: 1.5vw;
     text-align: left;
     color: rgb(184, 184, 184);
     margin-left: 20px;
     width: 550px;
-
+    div a {
+      img {
+        border: 1px solid #857325;
+        border-radius: 90px;
+        padding: 2px;
+        height: 80px;
+        margin: 10px 0;
+      }
+    }
     .styles-welcome p {
       margin-top: 2px;
       text-align: center;

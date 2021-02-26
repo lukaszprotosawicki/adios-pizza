@@ -1,10 +1,18 @@
 import React from "react";
+import logo from "../img/logoprincipal.png";
 
 const Footer = () => {
   return (
     <>
       <div className="backgrond-body-footer">
         <div className="container-footer">
+          <div className="">
+            {" "}
+            <a href="/">
+              <img src={logo} alt="Adios Pizza" />
+            </a>
+          </div>
+
           <div className="styles-welcome">
             <p>
               Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
