@@ -19,6 +19,15 @@
           margin: 13px 0.6vw;
           text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
         }
+        .scroll {
+          text-decoration: none;
+          color: white;
+        }
+        .scroll:hover {
+          cursor: pointer;
+          color: rgb(209, 105, 45);
+          transition: 0.5s;
+        }
         .nav-menu {
           margin-top: 11px;
         }
@@ -60,8 +69,8 @@
           border: 1px solid #857325;
           border-radius: 90px;
           padding: 2px;
-          height: 100px;
-          margin: 20px;
+          height: 120px;
+          margin: 10px;
         }
       }
     }
@@ -117,8 +126,8 @@
             border: 1px solid #857325;
             border-radius: 90px;
             padding: 2px;
-            height: 60px;
-            margin: 20px 0;
+            height: 80px;
+            margin: 10px 0;
           }
         }
       }

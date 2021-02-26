@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as NavLink } from "react-router-dom";
-import logo from "../img/logo6.jpg";
+import logo from "../img/logoprincipal.png";
 
 const MainPages = () => {
   return (
@@ -17,7 +17,12 @@ const MainPages = () => {
                 🍕<NavLink to={"/"}> MENU</NavLink> 🍕
               </li>
               <li>
-                <NavLink to={"/"}> PROMOCJE</NavLink>
+                <NavLink to={"/"}>
+                  {" "}
+                  <a className="scroll" href="#promotion">
+                    PROMOCJE
+                  </a>
+                </NavLink>
               </li>
             </nav>
             <a href="/">
@@ -27,7 +32,7 @@ const MainPages = () => {
               <li>
                 <NavLink to={"/"}>
                   {" "}
-                  <a className="scroll" href="#transport-scroll">
+                  <a className="scroll" href="#transport">
                     DOSTAWA
                   </a>
                 </NavLink>

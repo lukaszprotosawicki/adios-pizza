@@ -7,6 +7,7 @@ import Footer from "./components/Footer.js";
 import FooterInfo from "./components/FooterInfo.js";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import ContainerTransport from "./components/ContainerTransport";
+import ContainerPromotion from "./components/ContainerPromotion";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MainPages />
       <ContainerBody />
       <ContainerInfo />
+      <ContainerPromotion />
       <ContainerGallery />
       <ContainerTransport />
       <Footer />
