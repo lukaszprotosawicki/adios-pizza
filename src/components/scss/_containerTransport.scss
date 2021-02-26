@@ -1,0 +1,244 @@
+.container-transport {
+  background-color: #151515;
+  height: auto;
+  width: 100vw;
+  margin: -1px auto 0;
+  padding-bottom: 40px;
+  display: block;
+  text-align: center;
+  span {
+    display: block;
+
+    color: rgb(224, 162, 68);
+    text-shadow: black 0.1em 0.1em 0.1em;
+  }
+  .text-transport {
+    font-family: "Caveat", cursive;
+    font-size: 46px;
+    padding-top: 50px;
+    animation-name: example;
+    animation-duration: 2s;
+    position: relative;
+  }
+  .text-transport-citys {
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+    font-family: "Lora", serif;
+    animation-name: example1;
+    animation-duration: 4s;
+    position: relative;
+  }
+  .border-bottom {
+    border-bottom: 4px solid #e58b07;
+    width: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+.container-photo-all {
+  display: block;
+  padding-bottom: 20px;
+  background-color: #0d0d0d;
+
+  img {
+    padding: 20px;
+    height: 200px;
+    width: 220px;
+    cursor: pointer;
+  }
+  img::before {
+    opacity: 0.7;
+  }
+}
+.button-gallery {
+  margin-top: 20px;
+  color: white;
+  background-color: #e58b07;
+  width: 330px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #a56504;
+  transition: 0.4s;
+}
+
+@media all and (min-width: 500px) and (max-width: 800px) {
+  .container-transport {
+    height: auto;
+    width: 100vw;
+    margin: -1px auto 0;
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+    span {
+      display: block;
+
+      color: rgb(224, 162, 68);
+      text-shadow: black 0.1em 0.1em 0.1em;
+    }
+    .text-transport {
+      font-family: "Caveat", cursive;
+      font-size: 26px;
+      padding-top: 50px;
+      animation-name: example;
+      animation-duration: 2s;
+      position: relative;
+    }
+    .text-transport-citys {
+      font-size: 35px;
+      font-weight: 900;
+      color: white;
+      font-family: "Lora", serif;
+      animation-name: example1;
+      animation-duration: 4s;
+      position: relative;
+    }
+    .border-bottom {
+      border-bottom: 4px solid #e58b07;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container-photo-all {
+    img {
+      padding: 20px;
+      height: 200px;
+      width: 220px;
+      cursor: pointer;
+    }
+  }
+  .button-gallery {
+    margin-top: 20px;
+    color: white;
+    background-color: #e58b07;
+    width: 290px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+}
+@media all and (min-width: 350px) and (max-width: 500px) {
+  .container-transport {
+    height: auto;
+    width: 100vw;
+    margin: -1px auto 0;
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+    span {
+      display: block;
+
+      color: rgb(224, 162, 68);
+      text-shadow: black 0.1em 0.1em 0.1em;
+    }
+    .text-transport {
+      font-family: "Caveat", cursive;
+      font-size: 22px;
+      padding-top: 50px;
+      animation-name: example;
+      animation-duration: 2s;
+      position: relative;
+    }
+    .text-transport-citys {
+      font-size: 30px;
+      font-weight: 900;
+      color: white;
+      font-family: "Lora", serif;
+      animation-name: example1;
+      animation-duration: 4s;
+      position: relative;
+    }
+    .border-bottom {
+      border-bottom: 4px solid #e58b07;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container-photo-all {
+    img {
+      padding: 20px;
+      height: 200px;
+      width: 220px;
+      cursor: pointer;
+    }
+  }
+  .button-gallery {
+    margin-top: 20px;
+    color: white;
+    background-color: #e58b07;
+    width: 240px;
+    height: 28px;
+    font-size: 12px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+}
+@media all and (min-width: 200px) and (max-width: 350px) {
+  .container-transport {
+    height: auto;
+    width: 100vw;
+    margin: -1px auto 0;
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+    span {
+      display: block;
+
+      color: rgb(224, 162, 68);
+      text-shadow: black 0.1em 0.1em 0.1em;
+    }
+    .text-transport {
+      font-family: "Caveat", cursive;
+      font-size: 20px;
+      padding-top: 50px;
+      animation-name: example;
+      animation-duration: 2s;
+      position: relative;
+    }
+    .text-transport-citys {
+      font-size: 28px;
+      font-weight: 900;
+      color: white;
+      font-family: "Lora", serif;
+      animation-name: example1;
+      animation-duration: 4s;
+      position: relative;
+    }
+    .border-bottom {
+      border-bottom: 4px solid #e58b07;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container-photo-all {
+    img {
+      padding: 20px;
+      height: 200px;
+      width: 220px;
+      cursor: pointer;
+    }
+  }
+  .button-gallery {
+    margin-top: 20px;
+    color: white;
+    background-color: #e58b07;
+    width: 180px;
+    height: 17px;
+    font-size: 9px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+}

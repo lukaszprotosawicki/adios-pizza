@@ -3,11 +3,11 @@ import React from "react";
 const ContainerTransport = () => {
   return (
     <>
-      <div className="container-gallery">
+      <div id="transport-scroll" className="container-transport">
         <div>
-          <span className="text-look">Dostarczamy na terenie </span>
+          <span className="text-transport">Dostarczamy na terenie </span>
           <p></p>
-          <span className="text-gallery">Gorzowa Wlkp i okolic</span>
+          <span className="text-transport-citys">Gorzowa Wlkp i okolic</span>
           <p className="border-bottom"></p>
         </div>
       </div>
