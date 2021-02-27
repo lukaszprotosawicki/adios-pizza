@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/adios-pizza/static/css/main.c743570e.chunk.css",
-    "main.js": "/adios-pizza/static/js/main.d573f3e4.chunk.js",
-    "main.js.map": "/adios-pizza/static/js/main.d573f3e4.chunk.js.map",
+    "main.css": "/adios-pizza/static/css/main.adbc2ebf.chunk.css",
+    "main.js": "/adios-pizza/static/js/main.45c54c8d.chunk.js",
+    "main.js.map": "/adios-pizza/static/js/main.45c54c8d.chunk.js.map",
     "runtime-main.js": "/adios-pizza/static/js/runtime-main.1eb5e640.js",
     "runtime-main.js.map": "/adios-pizza/static/js/runtime-main.1eb5e640.js.map",
-    "static/js/2.8ed7b6bb.chunk.js": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js",
-    "static/js/2.8ed7b6bb.chunk.js.map": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js.map",
+    "static/js/2.101774aa.chunk.js": "/adios-pizza/static/js/2.101774aa.chunk.js",
+    "static/js/2.101774aa.chunk.js.map": "/adios-pizza/static/js/2.101774aa.chunk.js.map",
     "index.html": "/adios-pizza/index.html",
-    "static/css/main.c743570e.chunk.css.map": "/adios-pizza/static/css/main.c743570e.chunk.css.map",
-    "static/js/2.8ed7b6bb.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.8ed7b6bb.chunk.js.LICENSE.txt",
+    "static/css/main.adbc2ebf.chunk.css.map": "/adios-pizza/static/css/main.adbc2ebf.chunk.css.map",
+    "static/js/2.101774aa.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.101774aa.chunk.js.LICENSE.txt",
     "static/media/123.84b39389.jpg": "/adios-pizza/static/media/123.84b39389.jpg",
     "static/media/facebook.ae3596a2.png": "/adios-pizza/static/media/facebook.ae3596a2.png",
     "static/media/instagram.aa39a31f.jpg": "/adios-pizza/static/media/instagram.aa39a31f.jpg",
+    "static/media/menu.038394c0.jpg": "/adios-pizza/static/media/menu.038394c0.jpg",
     "static/media/pic1.0c709f4a.jpg": "/adios-pizza/static/media/pic1.0c709f4a.jpg",
     "static/media/pic13.0b970789.jpg": "/adios-pizza/static/media/pic13.0b970789.jpg",
     "static/media/pic2.5fbcb438.jpg": "/adios-pizza/static/media/pic2.5fbcb438.jpg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1eb5e640.js",
-    "static/js/2.8ed7b6bb.chunk.js",
-    "static/css/main.c743570e.chunk.css",
-    "static/js/main.d573f3e4.chunk.js"
+    "static/js/2.101774aa.chunk.js",
+    "static/css/main.adbc2ebf.chunk.css",
+    "static/js/main.45c54c8d.chunk.js"
   ]
 }
