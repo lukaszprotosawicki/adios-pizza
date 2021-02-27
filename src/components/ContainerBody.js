@@ -17,7 +17,7 @@ const ContainerBody = () => {
           <p></p>
           <span className="text-pizza">NIE TYLKO SMAKOSZY PIZZY</span>
           <p className="border-bottom"></p>
-          <button>ZOBACZ MENU</button>
+          {/* <button>ZOBACZ MENU</button> */}
         </div>
       </div>
     </>

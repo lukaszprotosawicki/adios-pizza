@@ -23,7 +23,7 @@ const ContainerInfo = () => {
               <p>🍕 www.adios-pizza.pl </p>
               <p>🍕 tel: 796 71 76 50</p>
             </div>
-            <button>SPRAWDŹ NASZE MENU</button>
+            {/* <button>SPRAWDŹ NASZE MENU</button> */}
           </div>
           <div className="content-gallery">
             <img

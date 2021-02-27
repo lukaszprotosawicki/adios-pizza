@@ -4,7 +4,7 @@ import menu from "../img/menu.jpg";
 const Menu = () => {
   return (
     <>
-      <div className="menu">
+      <div id="menu" className="menu">
         <img src={menu} alt="Adios Pizza" />
       </div>
     </>

@@ -18,7 +18,14 @@
           list-style: none;
           margin: 13px 0.6vw;
           text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
+          padding: 2px;
+          display: inline-block;
+          a {
+            padding: 1.5px;
+            display: inline-block;
+          }
         }
+
         .scroll {
           text-decoration: none;
           color: white;
@@ -44,7 +51,7 @@
         li {
           display: inline-block;
           list-style: none;
-          margin: 10px;
+          margin: 12px;
           padding: 3px 12px;
           text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
 
@@ -90,7 +97,7 @@
       .navigation {
         display: inline-flex;
         .navigation-left {
-          margin: 25px 2vw 40px 0;
+          margin: 21px 2vw 40px 0;
           font-size: 20px;
           li {
             list-style: none;
@@ -149,7 +156,7 @@
       .navigation {
         display: inline-flex;
         .navigation-left {
-          margin: 5px 0 40px 80px;
+          margin: 1px 0 40px 80px;
           font-size: 20px;
           li {
             list-style: none;

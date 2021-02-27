@@ -22,7 +22,12 @@ const ContainerGallery = () => {
           <img src={photo3} alt="Adios Pizza" />
           <img src={photo4} alt="Adios Pizza" />
         </div>
-        <button className="button-gallery">WYGLĄDA PYSZNIE, ZAMAWIAM</button>
+
+        {/* <button className="button-gallery ">
+          <a className="button-gallery " href="#contact">
+            WYGLĄDA PYSZNIE, ZAMAWIAM
+          </a>
+        </button> */}
       </div>
     </>
   );

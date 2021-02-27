@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import logo from "../../../img/logoprincipal.png"
 
 const UL = styled.ul `
 .scroll {
@@ -17,13 +18,19 @@ const UL = styled.ul `
     @media (max-width: 660px) {
         .menu-hamburger {
         }
+        img {
+          border: 0px;
+          border-radius: 80px;
+          padding: 2px;
+          height: 120px;
+          margin: 10px;
+        }
         padding-left: 0px;
         scroll-behavior: smooth;
         flex-flow: column nowrap;
         background-color: #151515;
         position: fixed;
         transform: ${({open}) => open ? 'translateY(0)' : 'translateY(-100%)'};
-        padding-top: 40px;
         padding-bottom: 20px;
         top: 0px;
         width: 100vw;
@@ -83,6 +90,9 @@ const Rightnav = ({open, closeNavigation}) => {
              <div className="menu-hamburger">
 
                 <div onClick={closeNavigation}>
+                <a href="/">
+              <img src={logo} alt="Adios Pizza" />
+            </a>
                     <li>
                     <a className="scroll" href="#topmain">
                         START

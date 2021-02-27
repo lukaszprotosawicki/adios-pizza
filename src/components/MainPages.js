@@ -16,9 +16,11 @@ const MainPages = () => {
                 </a>
               </li>
               <li>
-                <a className="scroll" href="#menu">
-                  🍕MENU🍕
+                🍕
+                <a className="scroll menuposition" href="#menu">
+                  MENU
                 </a>
+                🍕
               </li>
 
               <li>

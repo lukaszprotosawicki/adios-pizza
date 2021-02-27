@@ -51,7 +51,9 @@
     opacity: 0.7;
   }
 }
+
 .button-gallery {
+  scroll-behavior: smooth;
   margin-top: 20px;
   color: white;
   background-color: #e58b07;
