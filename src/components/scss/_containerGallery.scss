@@ -188,60 +188,16 @@ button:hover {
 }
 @media all and (min-width: 200px) and (max-width: 350px) {
   .container-gallery {
-    background-color: #0d0d0d;
-    height: auto;
-    width: 100vw;
-    margin: -1px auto 0;
-    padding-bottom: 40px;
-    display: block;
-    text-align: center;
-    span {
-      display: block;
-
-      color: rgb(224, 162, 68);
-      text-shadow: black 0.1em 0.1em 0.1em;
-    }
     .text-look {
-      font-family: "Caveat", cursive;
       font-size: 20px;
-      padding-top: 50px;
-      animation-name: example;
-      animation-duration: 2s;
-      position: relative;
     }
     .text-gallery {
       font-size: 28px;
-      font-weight: 900;
-      color: white;
-      font-family: "Lora", serif;
-      animation-name: example1;
-      animation-duration: 4s;
-      position: relative;
     }
-    .border-bottom {
-      border-bottom: 4px solid #e58b07;
-      width: 80px;
-      margin-bottom: 20px;
+    .button-gallery {
+      width: 210px;
+      height: 20px;
+      font-size: 12px;
     }
-  }
-
-  .container-photo-all {
-    img {
-      padding: 20px;
-      height: 200px;
-      width: 220px;
-      cursor: pointer;
-    }
-  }
-  .button-gallery {
-    margin-top: 20px;
-    color: white;
-    background-color: #e58b07;
-    width: 180px;
-    height: 17px;
-    font-size: 9px;
-    margin-left: 20px;
-    border: 1px solid gray;
-    border-radius: 4px;
   }
 }

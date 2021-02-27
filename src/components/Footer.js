@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <button className="buttof-footer">PRZEJDŹ DO MENU</button>
+            <button className="button-footer">PRZEJDŹ DO MENU</button>
           </div>
         </div>
       </div>

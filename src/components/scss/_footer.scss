@@ -60,164 +60,73 @@
     display: grid;
     height: auto;
     .container-footer {
-      color: rgb(184, 184, 184);
-      margin-left: 20px;
-      width: 550px;
-      background-color: #0d0d0d;
       .logo-footer a img {
-        border: 0px;
-        border-radius: 90px;
-        height: 120px;
         margin: 20px 20px 0 20px;
       }
       .welcome-contact {
-        .styles-welcome p {
-          margin-top: 2px;
-          text-align: center;
-          color: rgb(224, 162, 68);
-          text-shadow: black 0.1em 0.1em 0.1em;
-          font-size: 34px;
-          font-family: "Caveat", cursive;
-        }
         .styles-contact {
           padding-right: 8px;
-          margin-top: 30px;
-          padding-left: 30px;
-          padding-bottom: 30px;
-          p {
-            font-size: 18px;
-          }
         }
       }
       button {
-        display: block;
-        color: white;
-        background-color: #e58b07;
         width: 250px;
         height: 50px;
         font-size: 20px;
-        border: 1px solid gray;
-        border-radius: 4px;
         margin: 50px 20px;
-      }
-      button:hover {
-        cursor: pointer;
-        background-color: #a56504;
-        transition: 0.4s;
       }
     }
   }
 }
 @media all and (min-width: 300px) and (max-width: 500px) {
   .backgrond-body-footer {
-    background-color: #0d0d0d;
     display: grid;
     height: auto;
     .container-footer {
-      color: rgb(184, 184, 184);
-      margin-left: 20px;
-      width: 550px;
-      background-color: #0d0d0d;
-      .logo-footer a img {
-        border: 0px;
-        border-radius: 90px;
-        height: 120px;
-        margin: 20px 20px 0 20px;
-      }
       .welcome-contact {
         .styles-welcome p {
-          padding-right: 10px;
-          padding-left: 10px;
+          padding-right: 20px;
+          padding-left: 20px;
           margin-top: 2px;
-          text-align: center;
-          color: rgb(224, 162, 68);
-          text-shadow: black 0.1em 0.1em 0.1em;
           font-size: 30px;
-          font-family: "Caveat", cursive;
         }
         .styles-contact {
-          padding-right: 10px;
-          padding-left: 10px;
-          margin-top: 30px;
-          padding-left: 30px;
-          padding-bottom: 30px;
+          padding-right: 20px;
+          padding-left: 20px;
+
           p {
             font-size: 14px;
           }
         }
       }
       button {
-        display: block;
-        color: white;
-        background-color: #e58b07;
         width: 200px;
         height: 36px;
         font-size: 16px;
-        border: 1px solid gray;
-        border-radius: 4px;
-        margin: 50px 20px;
-      }
-      button:hover {
-        cursor: pointer;
-        background-color: #a56504;
-        transition: 0.4s;
+        margin: 40px;
       }
     }
   }
 }
 @media all and (min-width: 200px) and (max-width: 300px) {
   .backgrond-body-footer {
-    background-color: #0d0d0d;
     display: grid;
     height: auto;
     .container-footer {
-      color: rgb(184, 184, 184);
-      margin-left: 20px;
-      width: 550px;
-      background-color: #0d0d0d;
-      .logo-footer a img {
-        border: 0px;
-        border-radius: 90px;
-        height: 120px;
-        margin: 20px 20px 0 20px;
-      }
       .welcome-contact {
         .styles-welcome p {
-          padding-right: 10px;
-          padding-left: 10px;
-          margin-top: 2px;
-          text-align: center;
-          color: rgb(224, 162, 68);
-          text-shadow: black 0.1em 0.1em 0.1em;
           font-size: 26px;
-          font-family: "Caveat", cursive;
         }
         .styles-contact {
-          padding-right: 10px;
-          padding-left: 10px;
-          margin-top: 30px;
-          padding-left: 30px;
-          padding-bottom: 30px;
           p {
             font-size: 12px;
           }
         }
       }
       button {
-        display: block;
-        color: white;
-        background-color: #e58b07;
+        height: 30px;
+        font-size: 14px;
         width: 200px;
-        height: 36px;
-        font-size: 16px;
-        border: 1px solid gray;
-        border-radius: 4px;
-        margin: 50px 20px;
-      }
-      button:hover {
-        cursor: pointer;
-        background-color: #a56504;
-        transition: 0.4s;
+        margin: 40px;
       }
     }
   }
