@@ -100,7 +100,7 @@ const Rightnav = ({open, closeNavigation}) => {
 
                 <div onClick={closeNavigation}>
                     <li>
-                    <a className="scroll" href="#top-main">
+                    <a className="scroll" href="#topmain">
                         START
                         </a>
                     </li>

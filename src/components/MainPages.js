@@ -6,7 +6,7 @@ import Burger from "./scss/navigation/Burger";
 const MainPages = () => {
   return (
     <>
-      <div id="#top-main" className="page-header">
+      <div id="topmain" className="page-header">
         <div className="ui_container">
           <div className="navigation">
             {" "}
