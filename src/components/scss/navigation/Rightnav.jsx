@@ -1,13 +1,7 @@
 import React from 'react';
-
 import styled from 'styled-components';
 
-import {BrowserRouter as Router, NavLink } from "react-router-dom";
-
-
 const UL = styled.ul `
-
-
 .scroll {
 
     text-decoration: none;
@@ -18,16 +12,11 @@ const UL = styled.ul `
     color: rgb(209, 105, 45);
     transition: 0.5s;
   }
-
     display: block;
     }
     @media (max-width: 660px) {
-
-
         .menu-hamburger {
-
         }
-
         padding-left: 0px;
         scroll-behavior: smooth;
         flex-flow: column nowrap;
@@ -54,8 +43,6 @@ const UL = styled.ul `
             list-style: none;
             margin: 13px 0.6vw;
             text-shadow: rgb(180, 151, 21) 0.1em 0.1em 0.1em;
-
-            
           }
           .scroll {
             text-decoration: none;
@@ -75,7 +62,6 @@ const UL = styled.ul `
             transition: 0.5s;
           }
     }
-
     .menu-burger {
         text-decoration: none;
         list-style: none;
@@ -93,8 +79,6 @@ const UL = styled.ul `
 const Rightnav = ({open, closeNavigation}) => {
 
     return (
-        <Router >
-
          <UL id="ocultars" open={open} >
              <div className="menu-hamburger">
 
@@ -103,8 +87,10 @@ const Rightnav = ({open, closeNavigation}) => {
                     <a className="scroll" href="#topmain">
                         START
                         </a>
-                    </li>
-                    <li ><NavLink className="menu-burger" to={"/menu"} >🍕MENU🍕</NavLink></li>
+                    </li>               
+                    <li >
+                      <a className="scroll" href="#menu" >🍕MENU🍕</a>
+                      </li>
                     <li>
                         <a className="scroll" href="#promotion">
                         PROMOCJE
@@ -123,9 +109,6 @@ const Rightnav = ({open, closeNavigation}) => {
                 </div>
             </div>
           </UL>
-
-
-        </Router >
     )
 }
 

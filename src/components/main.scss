@@ -9,6 +9,10 @@ body {
   overflow: overlay;
 }
 
+.menu img {
+  width: 100vw;
+}
+
 @import "./scss/mainPages";
 @import "./scss/containerBody";
 @import "./scss/containerInfo";

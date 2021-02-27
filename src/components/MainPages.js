@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as NavLink } from "react-router-dom";
 import logo from "../img/logoprincipal.png";
 import Burger from "./scss/navigation/Burger";
 
@@ -16,9 +15,12 @@ const MainPages = () => {
                   START
                 </a>
               </li>
-              <li className="nav-menu">
-                🍕<NavLink to={"/"}> MENU</NavLink> 🍕
+              <li>
+                <a className="scroll" href="#menu">
+                  🍕MENU🍕
+                </a>
               </li>
+
               <li>
                 <a className="scroll" href="#promotion">
                   PROMOCJE
