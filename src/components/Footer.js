@@ -26,7 +26,7 @@ const Footer = () => {
                 Wróblewskiego)
               </p>
               <p>🍕 www.adios-pizza.pl </p>
-              <p>🍕 tel: 796 71 76 50</p>
+              <p>🍕 tel: 796 717 650</p>
             </div>
           </div>
           <div>

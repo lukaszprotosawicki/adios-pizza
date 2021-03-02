@@ -1,6 +1,6 @@
 import React from "react";
-import backgrondInfo1 from "../img/pic1.jpg";
-import backgrondInfo2 from "../img/pic2.jpg";
+import backgrondInfo1 from "../img/pizza.jpg";
+import backgrondInfo2 from "../img/pic22.jpg";
 
 const ContainerInfo = () => {
   return (
@@ -21,7 +21,7 @@ const ContainerInfo = () => {
                 Wróblewskiego)
               </p>
               <p>🍕 www.adios-pizza.pl </p>
-              <p>🍕 tel: 796 71 76 50</p>
+              <p>🍕 tel: 796 717 650</p>
             </div>
             {/* <button>SPRAWDŹ NASZE MENU</button> */}
           </div>

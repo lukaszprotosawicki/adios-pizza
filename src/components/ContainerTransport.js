@@ -7,13 +7,12 @@ const ContainerTransport = () => {
         <div>
           <span className="text-transport">Dostarczamy na terenie </span>
           <p></p>
-          <span className="text-transport-citys">Gorzowa Wlkp i okolice</span>
-          <p className="border-bottom"></p>
+          <span className="text-transport-citys">Gorzowa Wlkp. i okolice</span>
           <span className="text-transport">
             Dowóz na terenie Gorzowa Wlkp. powyżej 25 zł GRATIS!!{" "}
           </span>
           <span className="text-transport-citys">
-            ZADZWOŃ: <p></p>796 71 76 50{" "}
+            ZADZWOŃ: <p></p>796 717 650{" "}
           </span>
         </div>
       </div>

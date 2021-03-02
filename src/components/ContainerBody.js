@@ -1,5 +1,5 @@
 import React from "react";
-import backgrondBody from "../img/123.jpg";
+import backgrondBody from "../img/1234.jpg";
 
 const ContainerBody = () => {
   return (
