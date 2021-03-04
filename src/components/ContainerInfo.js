@@ -1,6 +1,4 @@
 import React from "react";
-import backgrondInfo1 from "../img/pizza.jpg";
-import backgrondInfo2 from "../img/pic22.jpg";
 
 const ContainerInfo = () => {
   return (
@@ -24,18 +22,6 @@ const ContainerInfo = () => {
               <p>🍕 tel: 796 717 650</p>
             </div>
             {/* <button>SPRAWDŹ NASZE MENU</button> */}
-          </div>
-          <div className="content-gallery">
-            <img
-              className="background-info-img1"
-              src={backgrondInfo1}
-              alt="Adios Pizza"
-            />
-            <img
-              className="background-info-img2"
-              src={backgrondInfo2}
-              alt="Adios Pizza"
-            />
           </div>
         </div>
       </div>
