@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adios-pizza/static/css/main.e6961fd3.chunk.css",
-    "main.js": "/adios-pizza/static/js/main.2453ac6f.chunk.js",
-    "main.js.map": "/adios-pizza/static/js/main.2453ac6f.chunk.js.map",
+    "main.js": "/adios-pizza/static/js/main.019e1c5c.chunk.js",
+    "main.js.map": "/adios-pizza/static/js/main.019e1c5c.chunk.js.map",
     "runtime-main.js": "/adios-pizza/static/js/runtime-main.1eb5e640.js",
     "runtime-main.js.map": "/adios-pizza/static/js/runtime-main.1eb5e640.js.map",
     "static/js/2.101774aa.chunk.js": "/adios-pizza/static/js/2.101774aa.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/adios-pizza/index.html",
     "static/css/main.e6961fd3.chunk.css.map": "/adios-pizza/static/css/main.e6961fd3.chunk.css.map",
     "static/js/2.101774aa.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.101774aa.chunk.js.LICENSE.txt",
-    "static/media/1234.be56d287.jpg": "/adios-pizza/static/media/1234.be56d287.jpg",
+    "static/media/12345.f5b9624c.jpg": "/adios-pizza/static/media/12345.f5b9624c.jpg",
     "static/media/facebook.ae3596a2.png": "/adios-pizza/static/media/facebook.ae3596a2.png",
     "static/media/instagram.aa39a31f.jpg": "/adios-pizza/static/media/instagram.aa39a31f.jpg",
     "static/media/menu.038394c0.jpg": "/adios-pizza/static/media/menu.038394c0.jpg",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.1eb5e640.js",
     "static/js/2.101774aa.chunk.js",
     "static/css/main.e6961fd3.chunk.css",
-    "static/js/main.2453ac6f.chunk.js"
+    "static/js/main.019e1c5c.chunk.js"
   ]
 }
