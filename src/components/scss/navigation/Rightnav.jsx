@@ -13,7 +13,7 @@ const UL = styled.ul `
     color: rgb(209, 105, 45);
     transition: 0.5s;
   }
-    display: block;
+    display: none;
     }
     @media (max-width: 660px) {
         .menu-hamburger {
