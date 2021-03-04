@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import logo from "../../../img/logoprincipal.png"
 
 const UL = styled.ul `
+
+  display: none;
+
 .scroll {
 
     text-decoration: none;
@@ -13,10 +16,12 @@ const UL = styled.ul `
     color: rgb(209, 105, 45);
     transition: 0.5s;
   }
-    display: block;
+    
     }
     @media (max-width: 660px) {
+      display: block;
         .menu-hamburger {
+
         }
         img {
           border: 0px;
