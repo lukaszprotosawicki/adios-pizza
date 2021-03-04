@@ -45,12 +45,12 @@
 
   margin: 0 auto;
   overflow: hidden;
-  height: 40vw;
+  height: 44vw;
   padding-bottom: 40px;
   width: 100vw;
   img {
     width: 100vw;
-    height: 600px;
+    height: 44vw;
     margin: 0 auto;
     // opacity: 0.8;
   }
@@ -60,7 +60,7 @@
   }
 
   .container-body {
-    margin-top: -420px;
+    margin-top: -38vw;
     position: relative;
     display: block;
     text-align: center;
@@ -132,7 +132,6 @@
       }
       .text-kitchen {
         font-size: 40px;
-        margin-top: 63px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -192,7 +191,6 @@
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 35px;
-        margin-top: 94px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -252,7 +250,6 @@
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 35px;
-        margin-top: 123px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -309,12 +306,12 @@
 
     .container-body {
       span {
-        margin: 0;
+        margin: 20px;
+        padding-top: 20px;
       }
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 35px;
-        margin-top: 163px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -371,12 +368,12 @@
 
     .container-body {
       span {
-        margin: 0;
+        margin: 10px;
+        padding-top: 20px;
       }
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 30px;
-        margin-top: 193px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -433,12 +430,12 @@
 
     .container-body {
       span {
-        margin: 0;
+        margin: 10px;
+        padding-top: 20px;
       }
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 25px;
-        margin-top: 229px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -492,15 +489,14 @@
       animation: zoominoutsinglefeatured 20s alternate;
       display: block;
     }
-
     .container-body {
       span {
-        margin: 0;
+        margin: 10px;
+        padding-top: 15px;
       }
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 19px;
-        margin-top: 259px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -557,12 +553,12 @@
 
     .container-body {
       span {
-        margin: 0;
+        margin: 10px;
+        padding-top: 6px;
       }
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 17px;
-        margin-top: 289px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
@@ -603,7 +599,7 @@
     }
   }
 }
-@media all and (min-width: 250px) and (max-width: 350px) {
+@media all and (min-width: 200px) and (max-width: 350px) {
   .backgrond-body {
     height: 44vw;
     img {
@@ -619,11 +615,11 @@
     .container-body {
       span {
         margin: 0;
+        padding-top: 6px;
       }
       .text-kitchen {
         font-family: "Caveat", cursive;
         font-size: 13px;
-        margin-top: 316px;
         padding: 10px;
         animation-name: example;
         animation-duration: 2s;
