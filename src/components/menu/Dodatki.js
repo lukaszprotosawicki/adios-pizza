@@ -7,7 +7,7 @@ const Dodatki = () => {
         <div className="menuRow">
           <div className="food">
             <h1 className="name">
-              Bułeczki panini z masłem czosnkowym 10 szt.
+              Bułeczki panini z masłem czosnkowym <br /> 10 szt.
             </h1>
 
             <h1 className="price">5,00</h1>

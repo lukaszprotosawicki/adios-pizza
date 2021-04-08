@@ -41,7 +41,7 @@
 .food {
   text-align: left;
   justify-content: left;
-  width: 80vh;
+  width: 90vh;
   position: relative;
   border-bottom: 1px dotted #e0a244;
 }
@@ -60,6 +60,7 @@ h1 {
 .p-name {
   margin-top: 5px;
   color: rgb(102, 101, 101);
+  font-size: 16px;
 }
 
 .price {
@@ -67,6 +68,11 @@ h1 {
   position: absolute;
   right: 0;
   bottom: 10px;
-  padding-left: 5px;
+  margin-right: -60px;
   max-height: 18px;
+}
+
+.contact-style a {
+  text-decoration: none;
+  color: #e0a244;
 }

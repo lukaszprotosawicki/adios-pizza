@@ -19,7 +19,7 @@ const Salatki = () => {
             <div className="name-info">
               <p className="p-name">
                 mix sałat, kurczak, kiełbasa, ser, ogórek kiszony, czerwona
-                cebula, sos Adios chrzanowy i grzanka czosnkowa
+                cebula, sos Adios chrzan i grzanka czosnkowa
               </p>
             </div>
             <h1 className="price">20,00</h1>
