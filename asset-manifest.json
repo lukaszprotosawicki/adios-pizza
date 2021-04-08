@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/adios-pizza/static/css/main.e6961fd3.chunk.css",
-    "main.js": "/adios-pizza/static/js/main.4ebf6a95.chunk.js",
-    "main.js.map": "/adios-pizza/static/js/main.4ebf6a95.chunk.js.map",
-    "runtime-main.js": "/adios-pizza/static/js/runtime-main.1eb5e640.js",
-    "runtime-main.js.map": "/adios-pizza/static/js/runtime-main.1eb5e640.js.map",
-    "static/js/2.101774aa.chunk.js": "/adios-pizza/static/js/2.101774aa.chunk.js",
-    "static/js/2.101774aa.chunk.js.map": "/adios-pizza/static/js/2.101774aa.chunk.js.map",
-    "index.html": "/adios-pizza/index.html",
-    "static/css/main.e6961fd3.chunk.css.map": "/adios-pizza/static/css/main.e6961fd3.chunk.css.map",
-    "static/js/2.101774aa.chunk.js.LICENSE.txt": "/adios-pizza/static/js/2.101774aa.chunk.js.LICENSE.txt",
-    "static/media/123456.9d72838b.jpg": "/adios-pizza/static/media/123456.9d72838b.jpg",
-    "static/media/facebook.ae3596a2.png": "/adios-pizza/static/media/facebook.ae3596a2.png",
-    "static/media/instagram.aa39a31f.jpg": "/adios-pizza/static/media/instagram.aa39a31f.jpg",
-    "static/media/menu.038394c0.jpg": "/adios-pizza/static/media/menu.038394c0.jpg",
-    "static/media/pic13.0b970789.jpg": "/adios-pizza/static/media/pic13.0b970789.jpg",
-    "static/media/pic22.096d5f4a.jpg": "/adios-pizza/static/media/pic22.096d5f4a.jpg",
-    "static/media/pic33.d54f0de1.jpg": "/adios-pizza/static/media/pic33.d54f0de1.jpg",
-    "static/media/pizza.8deee0a1.jpg": "/adios-pizza/static/media/pizza.8deee0a1.jpg",
-    "static/media/salate.de641eb7.jpg": "/adios-pizza/static/media/salate.de641eb7.jpg"
+    "main.css": "/static/css/main.886288e1.chunk.css",
+    "main.js": "/static/js/main.5c6d37e9.chunk.js",
+    "main.js.map": "/static/js/main.5c6d37e9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d4cfddbe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d4cfddbe.js.map",
+    "static/js/2.d591d5a5.chunk.js": "/static/js/2.d591d5a5.chunk.js",
+    "static/js/2.d591d5a5.chunk.js.map": "/static/js/2.d591d5a5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.886288e1.chunk.css.map": "/static/css/main.886288e1.chunk.css.map",
+    "static/js/2.d591d5a5.chunk.js.LICENSE.txt": "/static/js/2.d591d5a5.chunk.js.LICENSE.txt",
+    "static/media/123456.bbbc7dd7.jpg": "/static/media/123456.bbbc7dd7.jpg",
+    "static/media/facebook.ae3596a2.png": "/static/media/facebook.ae3596a2.png",
+    "static/media/instagram.aa39a31f.jpg": "/static/media/instagram.aa39a31f.jpg",
+    "static/media/pic13.0b970789.jpg": "/static/media/pic13.0b970789.jpg",
+    "static/media/pic22.096d5f4a.jpg": "/static/media/pic22.096d5f4a.jpg",
+    "static/media/pic33.d54f0de1.jpg": "/static/media/pic33.d54f0de1.jpg",
+    "static/media/pizza.8deee0a1.jpg": "/static/media/pizza.8deee0a1.jpg",
+    "static/media/salate.de641eb7.jpg": "/static/media/salate.de641eb7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1eb5e640.js",
-    "static/js/2.101774aa.chunk.js",
-    "static/css/main.e6961fd3.chunk.css",
-    "static/js/main.4ebf6a95.chunk.js"
+    "static/js/runtime-main.d4cfddbe.js",
+    "static/js/2.d591d5a5.chunk.js",
+    "static/css/main.886288e1.chunk.css",
+    "static/js/main.5c6d37e9.chunk.js"
   ]
 }
