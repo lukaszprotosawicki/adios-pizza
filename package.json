@@ -1,8 +1,8 @@
 {
-  "name": "adios-pizza",
+  "name": "adiospizza",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lukaszprotosawicki.github.io/adios-pizza",
+  "homepage": "https://adiospizza.pl",
   "dependencies": {
     "@react-google-maps/api": "^2.1.1",
     "@testing-library/jest-dom": "^5.11.4",

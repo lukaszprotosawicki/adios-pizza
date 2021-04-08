@@ -18,7 +18,7 @@ const ContainerInfo = () => {
                 🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
                 Wróblewskiego)
               </p>
-              <p>🍕 www.adios-pizza.pl </p>
+              <p>🍕 www.adiospizza.pl </p>
               <p>🍕 tel: 796 717 650</p>
             </div>
             {/* <button>SPRAWDŹ NASZE MENU</button> */}

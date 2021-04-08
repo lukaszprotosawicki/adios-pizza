@@ -9,11 +9,6 @@ body {
   overflow: overlay;
 }
 
-.menu img {
-  width: 100vw;
-  margin: -1px 0;
-}
-
 .googlemap {
   margin-top: 20px;
 }
@@ -26,3 +21,4 @@ body {
 @import "./scss/footerInfo";
 @import "./scss/containerTransport";
 @import "./scss/containerPromotion";
+@import "./scss/menu";

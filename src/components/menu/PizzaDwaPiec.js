@@ -1,25 +1,18 @@
 import React from "react";
-import logo from "../img/logoprincipal.png";
 
-const Footer = () => {
+const PizzaDwaPiec = () => {
   return (
     <>
-      <div className="backgrond-body-footer">
-        <div className="container-footer">
-          <div className="logo-footer">
-            {" "}
-            <a href="/">
-              <img src={logo} alt="Adios Pizza" />
-            </a>
-          </div>
-          <div className="welcome-contact">
+      <div className="backgrond-body-info">
+        <div className="content-position">
+          <div className="content-info">
             <div className="styles-welcome">
               <p>
                 Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
                 <p>odbiór osobisty w naszej pizzerii!!</p>
               </p>
             </div>
-            <div id="contact" className="styles-contact">
+            <div className="styles-contact">
               <p>🍕🍟 Adios Pizza - Pizzeria</p>
               <p>
                 🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
@@ -28,9 +21,7 @@ const Footer = () => {
               <p>🍕 www.adiospizza.pl </p>
               <p>🍕 tel: 796 717 650</p>
             </div>
-          </div>
-          <div>
-            {/* <button className="button-footer">PRZEJDŹ DO MENU</button> */}
+            {/* <button>SPRAWDŹ NASZE MENU</button> */}
           </div>
         </div>
       </div>
@@ -38,4 +29,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default PizzaDwaPiec;
