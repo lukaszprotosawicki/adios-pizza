@@ -97,6 +97,63 @@
   color: #868686;
 }
 
+@media all and (min-width: 950px) and (max-width: 1250px) {
+  .menu-change {
+    display: inline-table;
+    margin-top: 40px;
+    height: 30px;
+    border-bottom: 2px solid #ffffff;
+    max-width: max-content;
+    font-size: 14px;
+  }
+  .menu-change a {
+    display: inline-flex;
+    padding: 5px 6px;
+    text-decoration: none;
+    color: #e0a244;
+  }
+  .products {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+    .menuRow {
+      padding: 10px 0px 12px 0px;
+      display: grid;
+      .food {
+        text-align: left;
+        justify-content: left;
+        width: 66vh;
+        position: relative;
+        border-bottom: 1px dotted #e0a244;
+        h1 {
+          color: #c7c6c6;
+          font-weight: 800;
+          margin-top: 20px;
+          text-transform: uppercase;
+          font-size: 22px;
+        }
+        .name-info {
+          display: block;
+          .p-name {
+            margin-top: 5px;
+            color: rgb(102, 101, 101);
+            font-size: 14px;
+          }
+        }
+        .price {
+          color: #e0a244;
+          position: absolute;
+          right: 0;
+          bottom: 2px;
+          margin-right: -40px;
+          max-height: 18px;
+        }
+      }
+    }
+  }
+}
+
 @media all and (min-width: 850px) and (max-width: 950px) {
   .menu-change {
     display: inline-table;
@@ -123,7 +180,7 @@
       .food {
         text-align: left;
         justify-content: left;
-        width: 80vh;
+        width: 66vh;
         position: relative;
         border-bottom: 1px dotted #e0a244;
         h1 {
@@ -179,7 +236,7 @@
       .food {
         text-align: left;
         justify-content: left;
-        width: 70vh;
+        width: 64vh;
         position: relative;
         border-bottom: 1px dotted #e0a244;
         h1 {
