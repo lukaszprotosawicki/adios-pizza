@@ -77,6 +77,11 @@ const Menu = () => {
             </Switch>
           </Router>
         </div>
+        <div className="menu-button">
+          <p className="menu-button-style">
+            <a href="www.pyszne.pl/menu/adios-pizza"> Zamów online</a>{" "}
+          </p>
+        </div>
       </div>
     </>
   );
