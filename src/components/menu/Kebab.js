@@ -3,25 +3,18 @@ import React from "react";
 const Kebab = () => {
   return (
     <>
-      <div className="backgrond-body-info">
-        <div className="content-position">
-          <div className="content-info">
-            <div className="styles-welcome">
-              <p>
-                Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
-                <p>odbiór osobisty w naszej pizzerii!!</p>
+      <div className="products">
+        <div className="menuRow">
+          <div className="food">
+            <h1 className="name">kebab adios</h1>
+            <div className="name-info">
+              <p className="p-name">
+                bułeczka własnego wypieku, sos Adios z czosnkowym, mięso kebab
+                wołowe, mix sałat, świeży ogórek, pomidor, kukurydza, czerwona
+                cebula lub prażona/do wyboru
               </p>
             </div>
-            <div className="styles-contact">
-              <p>🍕🍟 Adios Pizza - Pizzeria</p>
-              <p>
-                🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
-                Wróblewskiego)
-              </p>
-              <p>🍕 www.adiospizza.pl </p>
-              <p>🍕 tel: 796 717 650</p>
-            </div>
-            {/* <button>SPRAWDŹ NASZE MENU</button> */}
+            <h1 className="price">13,00</h1>
           </div>
         </div>
       </div>

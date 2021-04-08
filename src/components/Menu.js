@@ -1,5 +1,4 @@
 import React from "react";
-import menu from "../img/menu.jpg";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,11 +13,12 @@ import Kebab from "./menu/Kebab.js";
 import Makarony from "./menu/Makarony.js";
 import Salatki from "./menu/Salatki.js";
 import Dodatki from "./menu/Dodatki.js";
+import Frytki from "./menu/Frytki.js";
 
 const Menu = () => {
   return (
     <>
-      <div className="container-menu">
+      <div id="menu" className="container-menu">
         <div className="menu-principal">
           <Router>
             <div className="menu-change">
@@ -39,6 +39,9 @@ const Menu = () => {
               </NavLink>
               <NavLink activeClassName="active-link" to={"/pizza-za-dwa-piec"}>
                 Pizza Dwa Piec
+              </NavLink>
+              <NavLink activeClassName="active-link" to={"/frytki"}>
+                Zapiekane Frytki
               </NavLink>
               <NavLink activeClassName="active-link" to={"/kebab"}>
                 Kebab
@@ -66,6 +69,7 @@ const Menu = () => {
               />
               <Route exact path="/pizza-za-dwa-zero" component={PizzaDwaZero} />
               <Route exact path="/pizza-za-dwa-piec" component={PizzaDwaPiec} />
+              <Route exact path="/frytki" component={Frytki} />
               <Route exact path="/kebab" component={Kebab} />
               <Route exact path="/makarony" component={Makarony} />
               <Route exact path="/salatki" component={Salatki} />

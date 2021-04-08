@@ -3,25 +3,14 @@ import React from "react";
 const Dodatki = () => {
   return (
     <>
-      <div className="backgrond-body-info">
-        <div className="content-position">
-          <div className="content-info">
-            <div className="styles-welcome">
-              <p>
-                Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
-                <p>odbiór osobisty w naszej pizzerii!!</p>
-              </p>
-            </div>
-            <div className="styles-contact">
-              <p>🍕🍟 Adios Pizza - Pizzeria</p>
-              <p>
-                🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
-                Wróblewskiego)
-              </p>
-              <p>🍕 www.adiospizza.pl </p>
-              <p>🍕 tel: 796 717 650</p>
-            </div>
-            {/* <button>SPRAWDŹ NASZE MENU</button> */}
+      <div className="products">
+        <div className="menuRow">
+          <div className="food">
+            <h1 className="name">
+              Bułeczki panini z masłem czosnkowym 10 szt.
+            </h1>
+
+            <h1 className="price">5,00</h1>
           </div>
         </div>
       </div>

@@ -3,25 +3,36 @@ import React from "react";
 const Salatki = () => {
   return (
     <>
-      <div className="backgrond-body-info">
-        <div className="content-position">
-          <div className="content-info">
-            <div className="styles-welcome">
-              <p>
-                Zapraszamy do zamówień telefonicznych <p>lub</p>{" "}
-                <p>odbiór osobisty w naszej pizzerii!!</p>
+      <div className="products">
+        <div className="menuRow">
+          <div className="food">
+            <h1 className="name">Sałatka adios</h1>
+            <div className="name-info">
+              <p className="p-name">
+                mix sałat, kurczak, szynka, świeży ogórek i pomidorki koktajlowe
               </p>
             </div>
-            <div className="styles-contact">
-              <p>🍕🍟 Adios Pizza - Pizzeria</p>
-              <p>
-                🍕🍟 Gorzów Wielkopolski ul. Pułaskiego 50 (Lokal od ulicy
-                Wróblewskiego)
+            <h1 className="price">20,00</h1>
+          </div>
+          <div className="food">
+            <h1 className="name">Sałatka drwala</h1>
+            <div className="name-info">
+              <p className="p-name">
+                mix sałat, kurczak, kiełbasa, ser, ogórek kiszony, czerwona
+                cebula, sos Adios chrzanowy i grzanka czosnkowa
               </p>
-              <p>🍕 www.adiospizza.pl </p>
-              <p>🍕 tel: 796 717 650</p>
             </div>
-            {/* <button>SPRAWDŹ NASZE MENU</button> */}
+            <h1 className="price">20,00</h1>
+          </div>
+          <div className="food">
+            <h1 className="name">Sałatka grecka</h1>
+            <div className="name-info">
+              <p className="p-name">
+                mix sałat, oliwki, pomidorki koktajlowe, świeży ogórek, feta,
+                czerwona cebula, oliwa, czosnek i grzanka czosnkowa
+              </p>
+            </div>
+            <h1 className="price">20,00</h1>
           </div>
         </div>
       </div>

@@ -8,14 +8,16 @@
   background-color: black;
   text-align: center;
   border-top: 1px solid #868686;
-  border-bottom: 1px solid #868686;
+}
+
+.menu-principal {
+  padding-bottom: 40px;
 }
 .menu-change {
   display: inline-table;
   margin-top: 40px;
   height: 30px;
   border-bottom: 2px solid #ffffff;
-  //   border-radius: 10px;
   max-width: max-content;
 }
 .menu-change a {
@@ -37,7 +39,6 @@
   display: grid;
 }
 .food {
-  display: inherit;
   text-align: left;
   justify-content: left;
   width: 80vh;
@@ -48,13 +49,17 @@
 h1 {
   color: #c7c6c6;
   font-weight: 800;
-  margin-top: 10px;
+  margin-top: 20px;
   text-transform: uppercase;
 }
 
-.p-name {
+.name-info {
   display: block;
-  color: #555;
+}
+
+.p-name {
+  margin-top: 5px;
+  color: rgb(102, 101, 101);
 }
 
 .price {
