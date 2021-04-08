@@ -18,7 +18,7 @@ const ContainerBody = () => {
           <span className="text-pizza">NIE TYLKO SMAKOSZY PIZZY</span>
           <p className="border-bottom"></p>
           <button className="button-styles-body">
-            <a href="www.pyszne.pl/menu/adios-pizza"> Zamów online</a>
+            <a href="https://www.pyszne.pl/menu/adios-pizza"> Zamów online</a>
           </button>
         </div>
       </div>

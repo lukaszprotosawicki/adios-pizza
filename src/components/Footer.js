@@ -27,11 +27,11 @@ const Footer = () => {
                 Wróblewskiego)
               </p>
               <p className="contact-style">
-                🍕 <a href="www.adiospizza.pl">www.adiospizza.pl</a>{" "}
+                🍕 <a href="https://www.adiospizza.pl">www.adiospizza.pl</a>{" "}
               </p>
               <p className="contact-style">
                 🍕{" "}
-                <a href="www.pyszne.pl/menu/adios-pizza">
+                <a href="https://www.pyszne.pl/menu/adios-pizza">
                   www.pyszne.pl/adios-pizza
                 </a>{" "}
               </p>

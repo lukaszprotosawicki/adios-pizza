@@ -22,12 +22,7 @@ const Menu = () => {
         <div className="menu-principal">
           <Router>
             <div className="menu-change">
-              <NavLink
-                activeClassName="active-link"
-                to={"/najpopularniejsze-dania"}
-              >
-                Najpopularniejsze Dania
-              </NavLink>
+              <NavLink to={"/"}>Najpopularniejsze Dania</NavLink>
               <NavLink
                 activeClassName="active-link"
                 to={"/pizza-za-pietnastaka"}
@@ -57,11 +52,7 @@ const Menu = () => {
               </NavLink>
             </div>
             <Switch>
-              <Route
-                exact
-                path="/najpopularniejsze-dania"
-                component={NajpopularniejszeDania}
-              />
+              <Route exact path="/" component={NajpopularniejszeDania} />
               <Route
                 exact
                 path="/pizza-za-pietnastaka"
@@ -79,7 +70,7 @@ const Menu = () => {
         </div>
         <div className="menu-button">
           <p className="menu-button-style">
-            <a href="www.pyszne.pl/menu/adios-pizza"> Zamów online</a>{" "}
+            <a href="https://www.pyszne.pl/menu/adios-pizza"> Zamów online</a>{" "}
           </p>
         </div>
       </div>
