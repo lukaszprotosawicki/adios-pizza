@@ -7,18 +7,20 @@
   display: block;
   background-color: black;
   text-align: center;
-  border-bottom: 6px solid #868686;
+  border-top: 1px solid #868686;
+  border-bottom: 1px solid #868686;
 }
 .menu-change {
+  display: inline-table;
+  margin-top: 40px;
   height: 30px;
   border-bottom: 2px solid #ffffff;
+  //   border-radius: 10px;
   max-width: max-content;
 }
 .menu-change a {
   display: inline-flex;
-
-  margin: 0px 2px;
-  padding: 5px 2px;
+  padding: 5px 6px;
   text-decoration: none;
   color: #e0a244;
 }
@@ -32,20 +34,21 @@
 
 .menuRow {
   padding: 10px 0px 12px 0px;
+  display: grid;
 }
 .food {
-  display: grid;
+  display: inherit;
+  text-align: left;
+  justify-content: left;
   width: 80vh;
   position: relative;
   border-bottom: 1px dotted #e0a244;
 }
 
 h1 {
-  float: left;
   color: #c7c6c6;
   font-weight: 800;
-  margin-top: 5px;
-  text-shadow: none;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 

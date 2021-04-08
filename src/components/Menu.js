@@ -47,7 +47,7 @@ const Menu = () => {
                 Makarony
               </NavLink>
               <NavLink activeClassName="active-link" to={"/salatki"}>
-                Salatki
+                Sałatki
               </NavLink>
               <NavLink activeClassName="active-link" to={"/dodatki"}>
                 Dodatki

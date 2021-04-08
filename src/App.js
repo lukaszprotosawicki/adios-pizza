@@ -14,8 +14,8 @@ function App() {
     <>
       <MainPages />
       <ContainerBody />
-      <ContainerInfo />
       <Menu />
+      <ContainerInfo />
       <ContainerPromotion />
       <ContainerGallery />
       <ContainerTransport />
