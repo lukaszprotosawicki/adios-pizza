@@ -5,15 +5,15 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import NajpopularniejszeDania from "./menu/NajpopularniejszeDania.js";
-import PizzaPietnastaka from "./menu/PizzaPietnastaka.js";
-import PizzaDwaZero from "./menu/PizzaDwaZero.js";
-import PizzaDwaPiec from "./menu/PizzaDwaPiec.js";
+import PopularDishes from "./menu/PopularDishes.js";
+import PizzaFifteenak from "./menu/PizzaFifteenak.js";
+import PizzaTwoZero from "./menu/PizzaTwoZero.js";
+import PizzaTwoFive from "./menu/PizzaTwoFive.js";
 import Kebab from "./menu/Kebab.js";
-import Makarony from "./menu/Makarony.js";
-import Salatki from "./menu/Salatki.js";
-import Dodatki from "./menu/Dodatki.js";
-import Frytki from "./menu/Frytki.js";
+import Pasta from "./menu/Pasta.js";
+import Salads from "./menu/Salads.js";
+import Additives from "./menu/Additives.js";
+import Chips from "./menu/Chips.js";
 
 const Menu = () => {
   return (
@@ -22,7 +22,12 @@ const Menu = () => {
         <div className="menu-principal">
           <Router>
             <div className="menu-change">
-              <NavLink to={"/"}>Najpopularniejsze Dania</NavLink>
+              <NavLink
+                activeClassName="active-link"
+                to={"/NajpopularniejszeDania"}
+              >
+                Najpopularniejsze Dania
+              </NavLink>
               <NavLink
                 activeClassName="active-link"
                 to={"/pizza-za-pietnastaka"}
@@ -52,19 +57,20 @@ const Menu = () => {
               </NavLink>
             </div>
             <Switch>
-              <Route exact path="/" component={NajpopularniejszeDania} />
+              <Route exact path="/" component={PopularDishes} />
               <Route
                 exact
-                path="/pizza-za-pietnastaka"
-                component={PizzaPietnastaka}
+                path="/NajpopularniejszeDania"
+                component={PopularDishes}
               />
-              <Route exact path="/pizza-za-dwa-zero" component={PizzaDwaZero} />
-              <Route exact path="/pizza-za-dwa-piec" component={PizzaDwaPiec} />
-              <Route exact path="/frytki" component={Frytki} />
+              <Route path="/pizza-za-pietnastaka" component={PizzaFifteenak} />
+              <Route exact path="/pizza-za-dwa-zero" component={PizzaTwoZero} />
+              <Route exact path="/pizza-za-dwa-piec" component={PizzaTwoFive} />
+              <Route exact path="/frytki" component={Chips} />
               <Route exact path="/kebab" component={Kebab} />
-              <Route exact path="/makarony" component={Makarony} />
-              <Route exact path="/salatki" component={Salatki} />
-              <Route exact path="/dodatki" component={Dodatki} />
+              <Route exact path="/makarony" component={Pasta} />
+              <Route exact path="/salatki" component={Salads} />
+              <Route exact path="/dodatki" component={Additives} />
             </Switch>
           </Router>
         </div>
